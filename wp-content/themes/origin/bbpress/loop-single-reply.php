@@ -58,6 +58,9 @@
 
 	</div><!-- .bbp-reply-author -->
 
+	<span class="topic-time"><?php bbp_reply_post_date(); ?></span>
+
+
 	<div class="bbp-reply-content">
 
 		<?php do_action( 'bbp_theme_before_reply_content' ); ?>

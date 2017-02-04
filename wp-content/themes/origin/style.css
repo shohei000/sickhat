@@ -63,6 +63,7 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  color: #1a0dab;
 }
 
 /* change colours to suit your needs */
@@ -109,8 +110,8 @@ input, select {
 }
 
 body {
-  font-family: arial, sans-serif;
-  font-size: 14px;
+  font-family: Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-size: 16px;
   position: relative;
   line-height: 1.8;
   letter-spacing: 0.2px;
@@ -196,7 +197,9 @@ input, button, textarea, select {
 }
 
 .main-ttl {
-  font-size: 48px;
+  font-size: 54px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 1px;
 }
 
 .menu-trigger {
@@ -252,12 +255,202 @@ input, button, textarea, select {
 }
 
 
+/*----------hidden----------*/
+.bbp-breadcrumb{display: none;}
+.bbp-pagination{display: none;}
+.bbp-header{display: none;}
+.bbp-meta{display: none;}
+.status-publish{display: none;}
+.bbp-footer{display: none;}
+.bbp-template-notice.info{display: none;}
+.bbp-template-notice{display: none;}
+.bbp-reply-permalink{display: none !important;}/* bbp-metaの#14 */
+p.form-allowed-tags{display: none !important;}/* タグと属性が使えます */
+.bbp-reply-header{display: none;}/* コメント時の時間など */
 
-
-/*----------検索窓----------*/
-#bbp_search{
+/*----------top----------*/
+#bbpress-forums{
+  overflow: visible !important;
+}
+.search-box{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  vertical-align: top;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  z-index: 20;
+  text-align: left;
+  padding-left: 15px;
+  box-shadow: 2px 1px 3px #ccc;
+}
+.search-box #bbp_search_submit{
+  position: absolute;
+  right: -1px;
+  top: 0;
+  font-size: 20px;
+  color: #fff;
+  background: #0f6681;
+  border-radius: 2px;
   height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.05em;
+  z-index: 30;
+}
+.search-box #bbp_search_submit:hover{
+  cursor: pointer;
+}
+.search-box #bbp_search{
+  width: 90% !important;
+  height: 45px;
+  font-size: 20px;
+  padding-right: 10px;
+  color: #222;
+}
+.main-ttl + #bbpress-forums .bbp-template-notice{display: block;}
+
+
+
+
+
+
+/*----------topic一覧-----------*/
+#top .bbp-topic-header{
+  position: relative;
   border-radius: 5px;
+  margin-bottom: 10px !important;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  background-color: #fafafa !important;
+}
+#top .bbp-topic-title{
+  text-align: left;
+}
+#top .bbp-topic-title h3{
+  margin: 0 !important;
+}
+#top .bbp-topic-title h3 a{
+  display: inline-block;
+  font-size: 24px;
+  width: 73%;
+  padding: 10px 0;
+}
+.bbp-topic-title-meta{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 15px;
+  font-size: 16px;
+}
+.bbp-topic-title-meta a:before{
+  content: ": ";
+}
+/*----------topic詳細-----------*/
+.bbp-topic-wrapper .entry-title{
+  margin-bottom: 20px;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 20px;
+  background: #0f6681;
+  color: #fff;
+  font-weight: normal;
+}
+.bbp-topic-wrapper .bbp-meta{
+  display: block;
+}
+.bbp-topic-wrapper .status-publish{
+  display: block;
+}
+.bbp-topic-wrapper .status-publish .bbp-author-role{
+  display: none;
+}
+.bbp-topic-wrapper .status-publish .bbp-reply-ip{
+  display: none;
+}
+/*--トーク部分--*/
+.bbp-topic-wrapper #bbpress-forums li.bbp-body{
+  width: 80%;
+  margin: 0 auto 240px auto;
+  height: 660px;
+  overflow-y: scroll; 
+}
+.bbp-reply-content{
+  margin-top: 0;
+  display: inline-block;
+  margin-left: 0 !important;
+  max-width: 760px;
+}
+/*--トーク時間--*/
+.topic-time{
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/*--トーク名前--*/
+a.bbp-author-name{
+  font-size: 12px;
+  color: #333;
+}
+/*--返信エリア--*/
+.reply-box-topic{
+  position: fixed;
+  bottom: -5px;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.reply-box-topic  legend{
+  font-size: 16px;
+}
+.bbp-the-content-wrapper{
+  margin-bottom: 0 !important;
+}
+.reply-box-topic .bbp-submit-wrapper{
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.reply-box-topic .bbp-submit-wrapper button{
+  position: relative;
+  width: 300px;
+  background-color: #097697;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 45px;
+  -webkit-transition: none;
+  transition: none;
+  box-shadow: 0 3px 0 #0a5c75;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  font-size: 20px;
+}
+.reply-box-topic .bbp-submit-wrapper button:hover{
+  cursor: pointer;
+  background-color: #1a98bf;
+}
+.bbp-form label{
+  margin-right: 10px !important;
+  font-size: 16px;
+}
+.bbp-form label:after{
+  content: "(必須)";
+  color: #e80000;
+}
+.bbp-form > p{
+   margin: 0 0 3px 0 !important;
+}
+#bbp_anonymous_author{
+  font-size: 16px !important;
+  margin: 0 0 3px 0 !important;
 }
 
 
@@ -273,6 +466,18 @@ input, button, textarea, select {
 
 
 
+/*----------レイアウト初期化----------*/
+#bbp-search-results{
+  border: none !important;
+}
+.bbp-form{
+ border: none !important; 
+}
+.bbp-form .bbp-form{
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
 
 
 
@@ -285,15 +490,3 @@ input, button, textarea, select {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*# sourceMappingURL=style.css.map */

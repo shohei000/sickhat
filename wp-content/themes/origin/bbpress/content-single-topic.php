@@ -38,10 +38,16 @@
 			<?php bbp_get_template_part( 'loop',       'replies' ); ?>
 
 			<?php bbp_get_template_part( 'pagination', 'replies' ); ?>
-
+	
 		<?php endif; ?>
 
-		<?php bbp_get_template_part( 'form', 'reply' ); ?>
+		<div class="reply-box-topic"><?php bbp_get_template_part( 'form', 'reply' ); ?></div>
+
+		<style>
+			/*
+			<?php bbp_get_template_part( 'form', 'reply' ); ?>
+			*/
+		</style>
 
 	<?php endif; ?>
 

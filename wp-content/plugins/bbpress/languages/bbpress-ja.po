@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: bbPress 2.2 mod\n"
 "Report-Msgid-Bugs-To: http://bbpress.org\n"
 "POT-Creation-Date: 2012-11-19 06:18:52+00:00\n"
-"PO-Revision-Date: 2015-11-30 16:47+0900\n"
+"PO-Revision-Date: 2017-01-28 01:49+0900\n"
 "Last-Translator: halsinam\n"
 "Language-Team: halsinan\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: Japanese\n"
+"Language: ja\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: bbpress.php:130 bbpress.php:137
@@ -245,7 +245,6 @@ msgctxt "bbpress"
 msgid "Orphan <span class=\"count\">(%s)</span>"
 msgid_plural "Orphans <span class=\"count\">(%s)</span>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: bbpress.php:694
 msgctxt "post"
@@ -517,8 +516,8 @@ msgid ""
 "In WordPress Admin, you now select a parent forum or topic via autocomplete "
 "rather than a dropdown."
 msgstr ""
-"WordPressの管理画面で、ドロップダウンリストの自動補完機能を使って親フォーラム"
-"やトピックを選択できます。"
+"WordPressの管理画面で、ドロップダウンリストの自動補完機能を使って親カテゴリー"
+"やsick(病気)を選択できます。"
 
 #: includes/admin/admin.php:1369
 msgid "Fancy Editor Support"
@@ -1623,7 +1622,7 @@ msgstr "掲示板ベース"
 
 #: includes/admin/settings.php:237 includes/admin/settings.php:1441
 msgid "Topics base"
-msgstr "トピックベース"
+msgstr "sick(病気)ベース"
 
 #: includes/admin/settings.php:250
 msgid "Forum Prefix"
@@ -2574,7 +2573,7 @@ msgstr "返信なし"
 
 #: includes/admin/topics.php:840
 msgid "Close this topic"
-msgstr "このトピックを閉じる"
+msgstr "このsick(病気)を閉じる"
 
 #: includes/admin/topics.php:840
 msgctxt "Close a Topic"
@@ -2917,7 +2916,7 @@ msgstr "パスワードURI紛失:"
 
 #: includes/common/widgets.php:224
 msgid "A list of registered optional topic views."
-msgstr "登録リストの任意のトピックを閲覧。"
+msgstr "登録リストの任意のsick(病気)を閲覧。"
 
 #: includes/common/widgets.php:227
 msgid "(bbPress) Topic Views List"
@@ -3446,8 +3445,7 @@ msgstr "全ての投稿"
 msgid "Replies: %s"
 msgstr "返信: %s"
 
-#: includes/replies/template-tags.php:545
-#: includes/topics/template-tags.php:688
+#: includes/replies/template-tags.php:545 includes/topics/template-tags.php:688
 msgctxt "date at time"
 msgid "%1$s at %2$s"
 msgstr "%1$s - %2$s"
@@ -3466,14 +3464,12 @@ msgid "Anonymous"
 msgstr "匿名"
 
 #: includes/replies/template-tags.php:1031
-#: includes/topics/template-tags.php:1340
-#: includes/users/template-tags.php:1383
+#: includes/topics/template-tags.php:1340 includes/users/template-tags.php:1383
 msgid "View %s's profile"
 msgstr "%s' のプロフィール閲覧"
 
 #: includes/replies/template-tags.php:1031
-#: includes/topics/template-tags.php:1340
-#: includes/users/template-tags.php:1383
+#: includes/topics/template-tags.php:1340 includes/users/template-tags.php:1383
 msgid "Visit %s's website"
 msgstr "%s's のウェブサイトを訪問"
 
@@ -3521,7 +3517,6 @@ msgstr[0] "閲覧中 %1$s 投稿"
 msgid "Viewing %2$s post (of %4$s total)"
 msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: includes/topics/functions.php:157
 msgid ""
@@ -3779,7 +3774,6 @@ msgstr[0] "閲覧中 %1$s 投稿"
 msgid "Viewing topic %2$s (of %4$s total)"
 msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: includes/topics/template-tags.php:2763
 msgid "This topic is marked as spam."
@@ -3953,7 +3947,7 @@ msgstr "この掲示板を表示する権限がありません。"
 
 #: templates/default/bbpress/feedback-no-forums.php:13
 msgid "Oh bother! No forums were found here!"
-msgstr "フォーラムは見つかりませんでした!"
+msgstr "カテゴリーは見つかりませんでした!"
 
 #: templates/default/bbpress/feedback-no-replies.php:13
 msgid "Oh bother! No replies were found here!"
@@ -4208,7 +4202,7 @@ msgstr "分割: %s"
 
 #: templates/default/bbpress/form-topic-split.php:49
 msgid "Use an existing topic in this forum:"
-msgstr "この掲示板では既存のトピックを使用して下さい:"
+msgstr "この掲示板では既存のsick(病気)を使用して下さい:"
 
 #: templates/default/bbpress/form-topic-split.php:58
 msgid "No other topics found!"
@@ -4580,15 +4574,13 @@ msgstr "返信を非表示"
 #: templates/default/extras/page-topic-tags.php:22
 msgid ""
 "<p>This is a collection of tags that are currently popular on our forums.</p>"
-msgstr "<p>これは私たちのフォーラムで、現在人気があるタグ集です</p>"
+msgstr "<p>これは私たちのカテゴリーで、現在人気があるタグ集です</p>"
 
 #. Plugin Name of the plugin/theme
 msgid "bbPress"
 msgstr "bbPress"
 
-#. #-#-#-#-#  plugin.pot (bbPress 2.2)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  plugin.pot (bbPress 2.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "http://bbpress.org"
 msgstr "http://bbpress.org"

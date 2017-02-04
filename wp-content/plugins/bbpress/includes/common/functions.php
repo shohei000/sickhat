@@ -624,8 +624,10 @@ function bbp_filter_anonymous_post_data( $args = '' ) {
 		bbp_add_error( 'bbp_anonymous_name',  __( '<strong>ERROR</strong>: Invalid author name submitted!',   'bbpress' ) );
 
 	$r['bbp_anonymous_email'] = apply_filters( 'bbp_pre_anonymous_post_author_email', $r['bbp_anonymous_email'] );
-	if ( empty( $r['bbp_anonymous_email'] ) )
-		bbp_add_error( 'bbp_anonymous_email', __( '<strong>ERROR</strong>: Invalid email address submitted!', 'bbpress' ) );
+	
+	//メールアドレス入力を必須にする　を　消す
+	//if ( empty( $r['bbp_anonymous_email'] ) )
+	//bbp_add_error( 'bbp_anonymous_email', __( '<strong>ERROR</strong>: Invalid email address submitted!', 'bbpress' ) );
 
 	// Website is optional
 	$r['bbp_anonymous_website'] = apply_filters( 'bbp_pre_anonymous_post_author_website', $r['bbp_anonymous_website'] );

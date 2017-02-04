@@ -8,7 +8,8 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 <body>
-	<div class="wrapper">
+	<div id="top" class="wrapper">

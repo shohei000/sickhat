@@ -1,14 +1,14 @@
 		<footer class="footer">
-			<a href="javascript:void(0)" class="menu-trigger">
+			<!-- <a href="javascript:void(0)" class="menu-trigger">
 				<span></span>
 				<span></span>
 				<span></span>
-			</a>
+			</a> -->
 		</footer>
 
 	</div><!--wrapper-->
-	<script src="assets/js/vendors/jquery-3.1.1.min.js"></script>
-	<script src="assets/js/app.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.1.1.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
 	<?php wp_footer(); ?>
 </body>
 </html>

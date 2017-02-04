@@ -2,14 +2,17 @@
 # This file is distributed under the same license as the WordPress - 4.7.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-04 13:40:10+0000\n"
+"PO-Revision-Date: 2017-01-27 03:16+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: Poedit 1.8.11\n"
 "Language: ja_JP\n"
 "Project-Id-Version: WordPress - 4.7.x\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -9786,7 +9789,7 @@ msgstr "%s に含まれるすべての投稿のフィード"
 #: wp-includes/category-template.php:801 wp-includes/category-template.php:810
 msgid "%s topic"
 msgid_plural "%s topics"
-msgstr[0] "%s件のトピック"
+msgstr[0] "%s件の病名"
 
 #: wp-includes/category-template.php:524 wp-includes/taxonomy.php:511
 msgid "No categories"

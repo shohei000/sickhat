@@ -33,7 +33,7 @@
 				<?php if ( !bbp_is_topic_open() && !bbp_is_reply_edit() ) : ?>
 
 					<div class="bbp-template-notice">
-						<p><?php _e( 'This topic is marked as closed to new replies, however your posting capabilities still allow you to do so.', 'bbpress' ); ?></p>
+						<p style="color"><?php _e( 'This topic is marked as closed to new replies, however your posting capabilities still allow you to do so.', 'bbpress' ); ?></p>
 					</div>
 
 				<?php endif; ?>

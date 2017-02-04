@@ -2,14 +2,17 @@
 # This file is distributed under the same license as the Plugins - bbPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-19 01:30:39+0000\n"
+"PO-Revision-Date: 2017-01-28 02:04+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: Poedit 1.8.11\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - bbPress - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #. translators: user role
 #: includes/common/locale.php:56
@@ -39,11 +42,9 @@ msgstr "bbPress"
 
 #. Description of the plugin/theme
 msgid "bbPress is forum software with a twist from the creators of WordPress."
-msgstr "bbPress は WordPress の開発者たちが作った、ちょっとひねりの効いたフォーラムソフトウェアです。"
+msgstr "bbPress は WordPress の開発者たちが作った、ちょっとひねりの効いたCategoryソフトウェアです。"
 
-#. #-#-#-#-#  tmp-bbpress.pot (bbPress 2.5.12)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  tmp-bbpress.pot (bbPress 2.5.12)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://bbpress.org"
 msgstr "https://bbpress.org"
@@ -62,24 +63,24 @@ msgstr "各返信の表示位置を再計算"
 
 #: templates/default/extras/page-topic-tags.php:22
 msgid "<p>This is a collection of tags that are currently popular on our forums.</p>"
-msgstr "<p>フォーラムで現在人気のタグ一覧です。</p>"
+msgstr "<p>Categoryで現在人気のタグ一覧です。</p>"
 
 #: templates/default/extras/page-forum-statistics.php:22
 msgid "<p>Here are the statistics and popular topics of our forums.</p>"
-msgstr "<p>フォーラムの統計情報と人気のトピックです。</p>"
+msgstr "<p>Categoryの統計情報と人気のsick(病名)です。</p>"
 
 #: templates/default/bbpress-functions.php:426
 msgid "Please login to subscribe to this topic."
-msgstr "このトピックを購読するにはログインしてください。"
+msgstr "このsick(病名)を購読するにはログインしてください。"
 
 #: templates/default/bbpress-functions.php:375
 #: templates/default/bbpress-functions.php:443
 msgid "The topic could not be found."
-msgstr "トピックが見つかりませんでした。"
+msgstr "sick(病名)が見つかりませんでした。"
 
 #: templates/default/bbpress-functions.php:358
 msgid "Please login to make this topic a favorite."
-msgstr "このトピックをお気に入りに追加するにはログインしてください。"
+msgstr "このsick(病名)をお気に入りに追加するにはログインしてください。"
 
 #: templates/default/bbpress-functions.php:353
 msgid "Favorites are no longer active."
@@ -99,7 +100,7 @@ msgstr "本当に実行してかまいませんか ?"
 
 #: templates/default/bbpress-functions.php:307
 msgid "The forum could not be found."
-msgstr "フォーラムが見つかりませんでした。"
+msgstr "Categoryが見つかりませんでした。"
 
 #: templates/default/bbpress-functions.php:299
 #: templates/default/bbpress-functions.php:367
@@ -109,7 +110,7 @@ msgstr "この操作を行う権限がありません。"
 
 #: templates/default/bbpress-functions.php:290
 msgid "Please login to subscribe to this forum."
-msgstr "このフォーラムを購読するにはログインしてください。"
+msgstr "このCategoryを購読するにはログインしてください。"
 
 #: templates/default/bbpress-functions.php:285
 #: templates/default/bbpress-functions.php:421
@@ -123,47 +124,47 @@ msgstr "エラーが発生しました。ブラウザを再読み込みしても
 
 #: templates/default/bbpress/user-topics-created.php:28
 msgid "This user has not created any topics."
-msgstr "このユーザーはまだトピックを作成していません。"
+msgstr "このユーザーはまだsick(病名)を作成していません。"
 
 #: templates/default/bbpress/user-topics-created.php:28
 msgid "You have not created any topics."
-msgstr "まだトピックを作成していません。"
+msgstr "まだsick(病名)を作成していません。"
 
 #: templates/default/bbpress/user-topics-created.php:15
 msgid "Forum Topics Started"
-msgstr "開始したフォーラムトピック"
+msgstr "開始したCategorysick(病名)"
 
 #: templates/default/bbpress/user-subscriptions.php:47
 msgid "This user is not currently subscribed to any topics."
-msgstr "現在このユーザーが購読中のトピックはありません。"
+msgstr "現在このユーザーが購読中のsick(病名)はありません。"
 
 #: templates/default/bbpress/user-subscriptions.php:47
 msgid "You are not currently subscribed to any topics."
-msgstr "現在購読中のトピックはありません。"
+msgstr "現在購読中のsick(病名)はありません。"
 
 #: templates/default/bbpress/user-subscriptions.php:28
 msgid "This user is not currently subscribed to any forums."
-msgstr "現在このユーザーが購読中のフォーラムはありません。"
+msgstr "現在このユーザーが購読中のCategoryはありません。"
 
 #: templates/default/bbpress/user-subscriptions.php:28
 msgid "You are not currently subscribed to any forums."
-msgstr "現在購読中のフォーラムはありません。"
+msgstr "現在購読中のCategoryはありません。"
 
 #: templates/default/bbpress/user-subscriptions.php:19
 msgid "Subscribed Forums"
-msgstr "購読中のフォーラム"
+msgstr "購読中のCategory"
 
 #: templates/default/bbpress/user-replies-created.php:28
 msgid "This user has not replied to any topics."
-msgstr "このユーザーからのトピックへの返信はありません。"
+msgstr "このユーザーからのsick(病名)への返信はありません。"
 
 #: templates/default/bbpress/user-replies-created.php:28
 msgid "You have not replied to any topics."
-msgstr "まだトピックに返信していません。"
+msgstr "まだsick(病名)に返信していません。"
 
 #: templates/default/bbpress/user-replies-created.php:15
 msgid "Forum Replies Created"
-msgstr "フォーラムへの返信"
+msgstr "Categoryへの返信"
 
 #: templates/default/bbpress/user-profile.php:26
 msgid "Replies Created: %s"
@@ -171,23 +172,23 @@ msgstr "返信の数: %s"
 
 #: templates/default/bbpress/user-profile.php:25
 msgid "Topics Started: %s"
-msgstr "開始したトピック: %s"
+msgstr "開始したsick(病名): %s"
 
 #: templates/default/bbpress/user-profile.php:24
 msgid "Forum Role: %s"
-msgstr "フォーラム権限グループ: %s"
+msgstr "Category権限グループ: %s"
 
 #: templates/default/bbpress/user-favorites.php:28
 msgid "This user has no favorite topics."
-msgstr "このユーザーのお気に入りトピックはありません。"
+msgstr "このユーザーのお気に入りsick(病名)はありません。"
 
 #: templates/default/bbpress/user-favorites.php:28
 msgid "You currently have no favorite topics."
-msgstr "現在お気に入りのトピックがありません。"
+msgstr "現在お気に入りのsick(病名)がありません。"
 
 #: templates/default/bbpress/user-favorites.php:15
 msgid "Favorite Forum Topics"
-msgstr "お気に入りフォーラムトピック"
+msgstr "お気に入りCategorysick(病名)"
 
 #: templates/default/bbpress/user-details.php:58
 msgid "%s's Subscriptions"
@@ -203,7 +204,7 @@ msgstr "%s の返信を作成しました。"
 
 #: templates/default/bbpress/user-details.php:35
 msgid "%s's Topics Started"
-msgstr "%s の開始したトピック:"
+msgstr "%s の開始したsick(病名):"
 
 #: templates/default/bbpress/user-details.php:29
 #: templates/default/bbpress/user-profile.php:15
@@ -216,11 +217,11 @@ msgstr "%s のプロフィール"
 
 #: templates/default/bbpress/loop-single-topic.php:68
 msgid "in: <a href=\"%1$s\">%2$s</a>"
-msgstr "トピック: <a href=\"%1$s\">%2$s</a>"
+msgstr "(病名) <a href=\"%1$s\">%2$s</a>"
 
 #: templates/default/bbpress/loop-single-topic.php:60
 msgid "Started by: %1$s"
-msgstr "トピック作成者: %1$s"
+msgstr "sick(病名)作成者: %1$s"
 
 #: templates/default/bbpress/loop-single-reply.php:21
 msgid "in reply to: "
@@ -233,15 +234,15 @@ msgstr "検索結果"
 
 #: templates/default/bbpress/loop-search-topic.php:37
 msgid "in forum "
-msgstr "フォーラム内"
+msgstr "Category"
 
 #: templates/default/bbpress/loop-search-topic.php:33
 msgid "in group forum "
-msgstr "グループフォーラム内"
+msgstr "グループCategory"
 
 #: templates/default/bbpress/loop-search-topic.php:26
 msgid "Topic: "
-msgstr "トピック:"
+msgstr "sick(病名):"
 
 #: templates/default/bbpress/loop-search-reply.php:24
 msgid "In reply to: "
@@ -249,7 +250,7 @@ msgstr "返信先:"
 
 #: templates/default/bbpress/loop-search-forum.php:26
 msgid "Forum: "
-msgstr "フォーラム:"
+msgstr "Category:"
 
 #: templates/default/bbpress/loop-search-forum.php:16
 msgid "Last updated %s"
@@ -366,35 +367,35 @@ msgstr "名前"
 
 #: templates/default/bbpress/form-topic.php:234
 msgid "You must be logged in to create new topics."
-msgstr "トピックを新規作成するにはログインが必要です。"
+msgstr "sick(病名)を新規作成するにはログインが必要です。"
 
 #: templates/default/bbpress/form-topic.php:234
 msgid "You cannot create new topics."
-msgstr "トピックを新規作成することはできません。"
+msgstr "sick(病名)を新規作成することはできません。"
 
 #: templates/default/bbpress/form-topic.php:145
 msgid "Topic Status:"
-msgstr "トピックの状態:"
+msgstr "sick(病名)の状態:"
 
 #: templates/default/bbpress/form-topic.php:133
 msgid "Topic Type:"
-msgstr "トピックの種類:"
+msgstr "sick(病名)の種類:"
 
 #: templates/default/bbpress/form-topic.php:101
 msgid "Topic Tags:"
-msgstr "トピックタグ:"
+msgstr "sick(病名)タグ:"
 
 #: templates/default/bbpress/form-topic.php:75
 msgid "Topic Title (Maximum Length: %d):"
-msgstr "トピックタイトル (最大の長さ: %d):"
+msgstr "sick(病名)タイトル (最大の長さ: %d):"
 
 #: templates/default/bbpress/form-topic.php:53
 msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
-msgstr "このフォーラムへの新規トピック追加は締め切られていますが、お持ちの投稿権限により引き続き追加が可能です。"
+msgstr "このCategoryへの新規sick(病名)追加は締め切られていますが、お持ちの投稿権限により引き続き追加が可能です。"
 
 #: templates/default/bbpress/form-topic.php:43
 msgid "Create New Topic in &ldquo;%s&rdquo;"
-msgstr "「%s」にトピックを新規作成"
+msgstr "「%s」にsick(病名)を新規作成"
 
 #: templates/default/bbpress/form-topic-tag.php:101
 msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
@@ -410,7 +411,7 @@ msgstr "タグを削除すると元に戻すことはできません。"
 
 #: templates/default/bbpress/form-topic-tag.php:91
 msgid "This does not delete your topics. Only the tag itself is deleted."
-msgstr "この操作を行ってもトピックは削除されず、タグのみが削除されます。"
+msgstr "この操作を行ってもsick(病名)は削除されず、タグのみが削除されます。"
 
 #: templates/default/bbpress/form-topic-tag.php:73
 msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
@@ -450,15 +451,15 @@ msgstr "タグの管理: %s"
 
 #: templates/default/bbpress/form-topic-split.php:85
 msgid "Copy topic tags to the new topic"
-msgstr "新規トピックにトピックタグをコピー"
+msgstr "新規sick(病名)にsick(病名)タグをコピー"
 
 #: templates/default/bbpress/form-topic-split.php:80
 msgid "Copy favoriters to the new topic"
-msgstr "新規トピックにお気に入りをコピー"
+msgstr "新規sick(病名)にお気に入りをコピー"
 
 #: templates/default/bbpress/form-topic-split.php:75
 msgid "Copy subscribers to the new topic"
-msgstr "新規トピックに購読者をコピー"
+msgstr "新規sick(病名)に購読者をコピー"
 
 #: templates/default/bbpress/form-topic-split.php:42
 msgid "Split: %s"
@@ -470,50 +471,50 @@ msgstr "分割方法"
 
 #: templates/default/bbpress/form-topic-split.php:33
 msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
-msgstr "既存のトピック設定を使用した場合、両方のトピック内の返信は時系列順に統合されます。統合された返信の順序は返信が投稿された日時に基づきます。"
+msgstr "既存のsick(病名)設定を使用した場合、両方のsick(病名)内の返信は時系列順に統合されます。統合された返信の順序は返信が投稿された日時に基づきます。"
 
 #: templates/default/bbpress/form-topic-split.php:29
 msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
-msgstr "トピックを分割すると、ちょうど今選択した返信から2つに分けることになります。この返信を新しいタイトルを持つ新しいトピックにするためにはこれを使うか、または既存のトピックにこれらの返信を統合してください。"
+msgstr "sick(病名)を分割すると、ちょうど今選択した返信から2つに分けることになります。この返信を新しいタイトルを持つ新しいsick(病名)にするためにはこれを使うか、または既存のsick(病名)にこれらの返信を統合してください。"
 
 #: templates/default/bbpress/form-topic-split.php:24
 msgid "Split topic \"%s\""
-msgstr "「%s」トピックを分割"
+msgstr "「%s」sick(病名)を分割"
 
 #: templates/default/bbpress/form-topic-merge.php:106
 #: templates/default/bbpress/form-topic-split.php:110
 msgid "You cannot edit this topic."
-msgstr "このトピックを編集する権限がありません。"
+msgstr "このsick(病名)を編集する権限がありません。"
 
 #: templates/default/bbpress/form-topic-merge.php:106
 #: templates/default/bbpress/form-topic-split.php:110
 msgid "You do not have the permissions to edit this topic!"
-msgstr "このトピックを編集する権限がありません。"
+msgstr "このsick(病名)を編集する権限がありません。"
 
 #: templates/default/bbpress/form-topic-merge.php:81
 msgid "Merge topic tags"
-msgstr "トピックタグを統合"
+msgstr "sick(病名)タグを統合"
 
 #: templates/default/bbpress/form-topic-merge.php:76
 msgid "Merge topic favoriters"
-msgstr "お気に入りトピックを統合"
+msgstr "お気に入りsick(病名)を統合"
 
 #: templates/default/bbpress/form-topic-merge.php:71
 msgid "Merge topic subscribers"
-msgstr "トピック購読者を統合"
+msgstr "sick(病名)購読者を統合"
 
 #: templates/default/bbpress/form-topic-merge.php:64
 #: templates/default/bbpress/form-topic-split.php:68
 msgid "Topic Extras"
-msgstr "トピックエクストラ"
+msgstr "sick(病名)エクストラ"
 
 #: templates/default/bbpress/form-topic-merge.php:56
 msgid "There are no other topics in this forum to merge with."
-msgstr "このフォーラムには統合できる他のトピックがありません。"
+msgstr "このCategoryには統合できる他のsick(病名)がありません。"
 
 #: templates/default/bbpress/form-topic-merge.php:42
 msgid "Merge with this topic:"
-msgstr "このトピックと統合:"
+msgstr "このsick(病名)と統合:"
 
 #: templates/default/bbpress/form-topic-merge.php:38
 msgid "Destination"
@@ -521,19 +522,19 @@ msgstr "移動先"
 
 #: templates/default/bbpress/form-topic-merge.php:34
 msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
-msgstr "両方のトピック内のすべての返信は時系列に基づいて統合されます。統合された返信は投稿日時順に並べ替えられます。統合先のトピックがこのトピックより後に作成された場合、こちらの日付より一秒前に投稿日時が変更されます。s"
+msgstr "両方のsick(病名)内のすべての返信は時系列に基づいて統合されます。統合された返信は投稿日時順に並べ替えられます。統合先のsick(病名)がこのsick(病名)より後に作成された場合、こちらの日付より一秒前に投稿日時が変更されます。s"
 
 #: templates/default/bbpress/form-topic-merge.php:30
 msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
-msgstr "このトピックを先頭のトピックにするには、代わりに他のトピックから結合を行ってください。"
+msgstr "このsick(病名)を先頭のsick(病名)にするには、代わりに他のsick(病名)から結合を行ってください。"
 
 #: templates/default/bbpress/form-topic-merge.php:29
 msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
-msgstr "このトピックと統合するトピックを選択してください。統合先のトピックが先頭のトピックとして残り、このトピックは返信に変わります。"
+msgstr "このsick(病名)と統合するsick(病名)を選択してください。統合先のsick(病名)が先頭のsick(病名)として残り、このsick(病名)は返信に変わります。"
 
 #: templates/default/bbpress/form-topic-merge.php:24
 msgid "Merge topic \"%s\""
-msgstr "「%s」トピックを統合"
+msgstr "「%s」sick(病名)を統合"
 
 #: templates/default/bbpress/form-search.php:14
 msgid "Search for:"
@@ -541,20 +542,20 @@ msgstr "検索:"
 
 #: templates/default/bbpress/form-reply.php:174
 msgid "You must be logged in to reply to this topic."
-msgstr "このトピックに返信するにはログインが必要です。"
+msgstr "このsick(病名)に返信するにはログインが必要です。"
 
 #: templates/default/bbpress/form-reply.php:174
 msgid "You cannot reply to this topic."
-msgstr "このトピックには返信できません。"
+msgstr "このsick(病名)には返信できません。"
 
 #: templates/default/bbpress/form-reply.php:166
 #: templates/default/bbpress/form-topic.php:226
 msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
-msgstr "フォーラム「%s」への新規トピック・返信追加は締め切られています。"
+msgstr "Category「%s」への新規sick(病名)・返信追加は締め切られています。"
 
 #: templates/default/bbpress/form-reply.php:158
 msgid "The topic &#8216;%s&#8217; is closed to new replies."
-msgstr "トピック「%s」への新規返信追加は締め切られています。"
+msgstr "sick(病名)「%s」への新規返信追加は締め切られています。"
 
 #: templates/default/bbpress/form-reply.php:118
 #: templates/default/bbpress/form-topic.php:188
@@ -582,7 +583,7 @@ msgstr "タグ:"
 
 #: templates/default/bbpress/form-reply.php:36
 msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
-msgstr "このトピックへの新規返信は締め切られていますが、お持ちの投稿権限により引き続き返信が可能です。"
+msgstr "このsick(病名)への新規返信は締め切られていますが、お持ちの投稿権限により引き続き返信が可能です。"
 
 #: templates/default/bbpress/form-reply-move.php:85
 msgid "You cannot edit this reply."
@@ -601,7 +602,7 @@ msgstr "<strong>警告:</strong> この処理を元に戻すことはできま�
 #: templates/default/bbpress/form-reply-move.php:49
 #: templates/default/bbpress/form-topic-split.php:49
 msgid "Use an existing topic in this forum:"
-msgstr "このフォーラムの既存のトピックを使用:"
+msgstr "このCategoryの既存のsick(病名)を使用:"
 
 #: templates/default/bbpress/form-reply-move.php:42
 msgid "Moved: %s"
@@ -610,7 +611,7 @@ msgstr "移動済み: %s"
 #: templates/default/bbpress/form-reply-move.php:41
 #: templates/default/bbpress/form-topic-split.php:41
 msgid "New topic in <strong>%s</strong> titled:"
-msgstr "<strong>%s</strong> の新規トピック名:"
+msgstr "<strong>%s</strong> の新規sick(病名)名:"
 
 #: templates/default/bbpress/form-reply-move.php:37
 msgid "Move Method"
@@ -618,11 +619,11 @@ msgstr "移動方法"
 
 #: templates/default/bbpress/form-reply-move.php:33
 msgid "If you choose an existing topic, replies will be ordered by the time and date they were created."
-msgstr "既存のトピックを選択した場合、返信は作成日時で並び替えられます。"
+msgstr "既存のsick(病名)を選択した場合、返信は作成日時で並び替えられます。"
 
 #: templates/default/bbpress/form-reply-move.php:29
 msgid "You can either make this reply a new topic with a new title, or merge it into an existing topic."
-msgstr "この返信に新しいタイトルをつけて新しいトピックにするか、既存のトピックに統合できます。"
+msgstr "この返信に新しいタイトルをつけて新しいsick(病名)にするか、既存のsick(病名)に統合できます。"
 
 #: templates/default/bbpress/form-reply-move.php:24
 msgid "Move reply \"%s\""
@@ -634,15 +635,15 @@ msgstr "保護中"
 
 #: templates/default/bbpress/form-forum.php:169
 msgid "You must be logged in to create new forums."
-msgstr "フォーラムを新規作成するにはログインが必要です。"
+msgstr "Categoryを新規作成するにはログインが必要です。"
 
 #: templates/default/bbpress/form-forum.php:169
 msgid "You cannot create new forums."
-msgstr "フォーラムを新規作成することはできません。"
+msgstr "Categoryを新規作成することはできません。"
 
 #: templates/default/bbpress/form-forum.php:161
 msgid "The forum &#8216;%s&#8217; is closed to new content."
-msgstr "フォーラム「%s」への新規コンテンツ追加は締め切られています。"
+msgstr "Category「%s」への新規コンテンツ追加は締め切られています。"
 
 #: templates/default/bbpress/form-forum.php:138
 #: templates/default/bbpress/form-reply-move.php:72
@@ -659,7 +660,7 @@ msgstr "(親なし)"
 
 #: templates/default/bbpress/form-forum.php:91
 msgid "Forum Type:"
-msgstr "フォーラムの種類:"
+msgstr "Categoryの種類:"
 
 #: templates/default/bbpress/form-forum.php:82
 #: templates/default/bbpress/form-reply.php:64
@@ -669,7 +670,7 @@ msgstr "次の<abbr title=\"HyperText Markup Language\">HTML</abbr> タグと属
 
 #: templates/default/bbpress/form-forum.php:67
 msgid "Forum Name (Maximum Length: %d):"
-msgstr "フォーラム名 (最長%d文字):"
+msgstr "Category名 (最長%d文字):"
 
 #: templates/default/bbpress/form-forum.php:55
 #: templates/default/bbpress/form-reply.php:44
@@ -679,11 +680,11 @@ msgstr "ご利用中のアカウントからは HTML コンテンツを制限無
 
 #: templates/default/bbpress/form-forum.php:47
 msgid "This forum is closed to new content, however your account still allows you to do so."
-msgstr "このフォーラムへの新規コンテンツ追加は締め切られていますが、お持ちの投稿権限により引き続き追加が可能です。"
+msgstr "このCategoryへの新規コンテンツ追加は締め切られていますが、お持ちの投稿権限により引き続き追加が可能です。"
 
 #: templates/default/bbpress/form-forum.php:37
 msgid "Create New Forum in &ldquo;%s&rdquo;"
-msgstr "「%s」にフォーラムを新規作成"
+msgstr "「%s」にCategoryを新規作成"
 
 #: templates/default/bbpress/form-forum.php:35
 #: templates/default/bbpress/form-topic.php:41
@@ -704,7 +705,7 @@ msgstr "あなたの情報:"
 
 #: templates/default/bbpress/feedback-no-topics.php:13
 msgid "Oh bother! No topics were found here!"
-msgstr "トピックが見つかりませんでした。"
+msgstr "sick(病名)が見つかりませんでした。"
 
 #: templates/default/bbpress/feedback-no-search.php:13
 msgid "Oh bother! No search results were found here!"
@@ -716,11 +717,11 @@ msgstr "返信が見つかりません。"
 
 #: templates/default/bbpress/feedback-no-forums.php:13
 msgid "Oh bother! No forums were found here!"
-msgstr "お探しのフォーラムが見つかりませんでした。"
+msgstr "お探しのCategoryが見つかりませんでした。"
 
 #: templates/default/bbpress/feedback-no-access.php:16
 msgid "You do not have permission to view this forum."
-msgstr "このフォーラムを表示する権限がありません。"
+msgstr "このCategoryを表示する権限がありません。"
 
 #: templates/default/bbpress/feedback-no-access.php:13
 msgid "Private"
@@ -736,11 +737,11 @@ msgstr "非表示の返信"
 
 #: templates/default/bbpress/content-statistics.php:53
 msgid "Hidden Topics"
-msgstr "非表示のトピック"
+msgstr "非表示のsick(病名)"
 
 #: templates/default/bbpress/content-statistics.php:44
 msgid "Empty Topic Tags"
-msgstr "空のトピックタグ"
+msgstr "空のsick(病名)タグ"
 
 #: templates/default/bbpress/content-statistics.php:17
 msgid "Registered Users"
@@ -804,35 +805,35 @@ msgstr "ゲスト"
 
 #: includes/users/functions.php:1331
 msgid "<strong>ERROR</strong>: There was a problem subscribing to that topic!"
-msgstr "<strong>エラー</strong>: トピック購読の際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)購読の際に問題が発生しました。"
 
 #: includes/users/functions.php:1329
 msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that topic!"
-msgstr "<strong>エラー</strong>: トピックの購読解除の際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)の購読解除の際に問題が発生しました。"
 
 #: includes/users/functions.php:1276
 msgid "<strong>ERROR</strong>: No topic was found! Which topic are you subscribing/unsubscribing to?"
-msgstr "<strong>エラー</strong>: トピックが見つかりません。どのトピックを購読・購読解除しようとしていますか ?"
+msgstr "<strong>エラー</strong>: sick(病名)が見つかりません。どのsick(病名)を購読・購読解除しようとしていますか ?"
 
 #: includes/users/functions.php:1225
 msgid "<strong>ERROR</strong>: There was a problem subscribing to that forum!"
-msgstr "<strong>エラー</strong>: フォーラムを購読する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: Categoryを購読する際に問題が発生しました。"
 
 #: includes/users/functions.php:1223
 msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that forum!"
-msgstr "<strong>エラー</strong>: フォーラムの購読を解除する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: Categoryの購読を解除する際に問題が発生しました。"
 
 #: includes/users/functions.php:1170
 msgid "<strong>ERROR</strong>: No forum was found! Which forum are you subscribing/unsubscribing to?"
-msgstr "<strong>エラー</strong>: フォーラムが見つかりませんでした。どのフォーラムを購読または購読解除しようとしていますか ?"
+msgstr "<strong>エラー</strong>: Categoryが見つかりませんでした。どのCategoryを購読または購読解除しようとしていますか ?"
 
 #: includes/users/functions.php:508
 msgid "<strong>ERROR</strong>: There was a problem favoriting that topic!"
-msgstr "<strong>エラー</strong>: トピックをお気に入りにする際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をお気に入りにする際に問題が発生しました。"
 
 #: includes/users/functions.php:506
 msgid "<strong>ERROR</strong>: There was a problem removing that topic from favorites!"
-msgstr "<strong>エラー</strong>: トピックのお気に入りを解除する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)のお気に入りを解除する際に問題が発生しました。"
 
 #: includes/users/functions.php:463 includes/users/functions.php:1178
 #: includes/users/functions.php:1284
@@ -841,11 +842,11 @@ msgstr "<strong>エラー</strong>: そのユーザーのお気に入りを修�
 
 #: includes/users/functions.php:455
 msgid "<strong>ERROR</strong>: No topic was found! Which topic are you marking/unmarking as favorite?"
-msgstr "<strong>エラー</strong>: トピックが見つかりません。どのトピックをお気に入りに追加または削除しようとしていますか ?"
+msgstr "<strong>エラー</strong>: sick(病名)が見つかりません。どのsick(病名)をお気に入りに追加または削除しようとしていますか ?"
 
 #: includes/topics/template.php:3375
 msgid "View Topic Tag"
-msgstr "トピックタグを表示"
+msgstr "sick(病名)タグを表示"
 
 #: includes/topics/template.php:3374
 msgid "New Tag Name"
@@ -878,19 +879,19 @@ msgstr "タグを検索"
 #: includes/topics/template.php:3366
 #: templates/default/bbpress/content-statistics.php:37
 msgid "Topic Tags"
-msgstr "トピックタグ"
+msgstr "sick(病名)タグ"
 
 #: includes/topics/template.php:3320
 msgid "This topic has no replies."
-msgstr "このトピックへの返信はありません。"
+msgstr "このsick(病名)への返信はありません。"
 
 #: includes/topics/template.php:3316
 msgid "This topic contains %1$s and has %2$s."
-msgstr "このトピックには%2$sが含まれ、%1$sがいます。"
+msgstr "このsick(病名)には%2$sが含まれ、%1$sがいます。"
 
 #: includes/topics/template.php:3312
 msgid "This topic contains %1$s, has %2$s, and was last updated by %3$s %4$s."
-msgstr "このトピックには%1$sが含まれ、%2$sがいます。%4$sに %3$s さんが最後の更新を行いました。"
+msgstr "このsick(病名)には%1$sが含まれ、%2$sがいます。%4$sに %3$s さんが最後の更新を行いました。"
 
 #: includes/topics/template.php:3306
 msgid "%s voice"
@@ -899,21 +900,21 @@ msgstr[0] "%s人の参加者"
 
 #: includes/topics/template.php:3046
 msgid "This topic is in the trash."
-msgstr "このトピックはゴミ箱に入れられています。"
+msgstr "このsick(病名)はゴミ箱に入れられています。"
 
 #: includes/topics/template.php:3041
 msgid "This topic is marked as spam."
-msgstr "トピックをスパムとしてマークしました。"
+msgstr "sick(病名)をスパムとしてマークしました。"
 
 #: includes/topics/template.php:2981
 msgid "Viewing topic %2$s (of %4$s total)"
 msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
-msgstr[0] "%1$s件のトピックを表示中 - %2$s - %3$s件目 (全%4$s件中)"
+msgstr[0] "%1$s件のsick(病名)を表示中 - %2$s - %3$s件目 (全%4$s件中)"
 
 #: includes/topics/template.php:2977
 msgid "Viewing %1$s topic"
 msgid_plural "Viewing %1$s topics"
-msgstr[0] "%1$s件のトピックを表示中"
+msgstr[0] "%1$s件のsick(病名)を表示中"
 
 #: includes/topics/template.php:2816
 #: templates/default/bbpress/form-topic-tag.php:59
@@ -945,75 +946,75 @@ msgstr "お気に入り"
 
 #: includes/topics/template.php:993
 msgid "This topic was modified %1$s by %2$s."
-msgstr "このトピックは%2$sが%1$sに変更しました。"
+msgstr "このsick(病名)は%2$sが%1$sに変更しました。"
 
 #: includes/topics/template.php:991
 msgid "This topic was modified %1$s by %2$s. Reason: %3$s"
-msgstr "このトピックは%1$sに %2$s さんが編集しました。理由: %3$s"
+msgstr "このsick(病名)は%1$sに %2$s さんが編集しました。理由: %3$s"
 
 #: includes/topics/template.php:60
 msgid "No topics found in Trash"
-msgstr "ゴミ箱に入っているトピックはありません"
+msgstr "ゴミ箱に入っているsick(病名)はありません"
 
 #: includes/topics/template.php:59
 msgid "No topics found"
-msgstr "トピックは見つかりませんでした。"
+msgstr "sick(病名)は見つかりませんでした。"
 
 #: includes/topics/template.php:58
 msgid "Search Topics"
-msgstr "トピックを検索"
+msgstr "sick(病名)を検索"
 
 #: includes/topics/template.php:56 includes/topics/template.php:57
 msgid "View Topic"
-msgstr "トピックを表示"
+msgstr "sick(病名)を表示"
 
 #: includes/topics/template.php:54
 msgid "Edit Topic"
-msgstr "トピックを編集"
+msgstr "sick(病名)を編集"
 
 #: includes/topics/template.php:52 templates/default/bbpress/form-topic.php:43
 msgid "Create New Topic"
-msgstr "トピックを新規作成"
+msgstr "sick(病名)を新規作成"
 
 #: includes/topics/template.php:51 includes/topics/template.php:55
 msgid "New Topic"
-msgstr "トピックを新規作成"
+msgstr "sick(病名)を新規作成"
 
 #: includes/topics/functions.php:2158
 msgid "<strong>ERROR</strong>: There was a problem deleting the topic."
-msgstr "<strong>エラー</strong>: トピックを削除する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)を削除する際に問題が発生しました。"
 
 #: includes/topics/functions.php:2150
 msgid "<strong>ERROR</strong>: There was a problem untrashing the topic."
-msgstr "<strong>エラー</strong>: トピックをゴミ箱から移動する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をゴミ箱から移動する際に問題が発生しました。"
 
 #: includes/topics/functions.php:2142
 msgid "<strong>ERROR</strong>: There was a problem trashing the topic."
-msgstr "<strong>エラー</strong>: トピックをゴミ箱に移動する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をゴミ箱に移動する際に問題が発生しました。"
 
 #: includes/topics/functions.php:2123
 msgid "<strong>ERROR</strong>: There was a problem marking the topic as spam."
-msgstr "<strong>エラー</strong>: トピックをスパムとしてマークする際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をスパムとしてマークする際に問題が発生しました。"
 
 #: includes/topics/functions.php:2123
 msgid "<strong>ERROR</strong>: There was a problem unmarking the topic as spam."
-msgstr "<strong>エラー</strong>: トピックのスパム解除の際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)のスパム解除の際に問題が発生しました。"
 
 #: includes/topics/functions.php:2113
 msgid "<strong>ERROR</strong>: There was a problem sticking the topic."
-msgstr "<strong>エラー</strong>: トピックを先頭固定する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)を先頭固定する際に問題が発生しました。"
 
 #: includes/topics/functions.php:2113
 msgid "<strong>ERROR</strong>: There was a problem unsticking the topic."
-msgstr "<strong>エラー</strong>: トピックの先頭固定表示を解除する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)の先頭固定表示を解除する際に問題が発生しました。"
 
 #: includes/topics/functions.php:2102
 msgid "<strong>ERROR</strong>: There was a problem opening the topic."
-msgstr "<strong>エラー</strong>: トピックをオープンする際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をオープンする際に問題が発生しました。"
 
 #: includes/topics/functions.php:2102
 msgid "<strong>ERROR</strong>: There was a problem closing the topic."
-msgstr "<strong>エラー</strong>: トピックをクローズする際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をクローズする際に問題が発生しました。"
 
 #: includes/topics/functions.php:2089
 msgid "<strong>ERROR:</strong> You do not have the permission to do that."
@@ -1065,7 +1066,7 @@ msgstr "<strong>エラー</strong>: タグ「%s」削除の際に以下の問題
 
 #: includes/topics/functions.php:1922
 msgid "<strong>ERROR</strong>: You do not have the permissions to delete the topic tags."
-msgstr "<strong>エラー</strong>: トピックタグを削除する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)タグを削除する権限がありません。"
 
 #: includes/topics/functions.php:1890
 msgid "<strong>ERROR</strong>: The tags which are being merged can not be the same."
@@ -1085,7 +1086,7 @@ msgstr "<strong>エラー</strong>: タグ名を入力してください。"
 
 #: includes/topics/functions.php:1826 includes/topics/functions.php:1865
 msgid "<strong>ERROR</strong>: You do not have the permissions to edit the topic tags."
-msgstr "<strong>エラー</strong>: トピックタグを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)タグを編集する権限がありません。"
 
 #: includes/topics/functions.php:1808
 msgid "<strong>ERROR</strong>: The following problem(s) have been found while getting the tag: %s"
@@ -1093,7 +1094,7 @@ msgstr "<strong>エラー</strong>: タグ「%s」取得の際に以下の問題
 
 #: includes/topics/functions.php:1492
 msgid "<strong>ERROR</strong>: The topic you want to split to was not found!"
-msgstr "<strong>エラー</strong>: 分割しようとしているトピックが存在しません。"
+msgstr "<strong>エラー</strong>: 分割しようとしているsick(病名)が存在しません。"
 
 #: includes/topics/functions.php:1470
 msgid "<strong>ERROR</strong>: You need to choose a valid split option."
@@ -1101,7 +1102,7 @@ msgstr "<strong>エラー</strong>: 有効な分割オプションを選択し�
 
 #: includes/topics/functions.php:1452
 msgid "<strong>ERROR</strong>: The topic you want to split was not found."
-msgstr "<strong>エラー</strong>: 分割しようとしているトピックが存在しません。"
+msgstr "<strong>エラー</strong>: 分割しようとしているsick(病名)が存在しません。"
 
 #: includes/topics/functions.php:1443
 msgid "<strong>ERROR</strong>: The reply you want to split from was not found."
@@ -1109,79 +1110,79 @@ msgstr "<strong>エラー</strong>: 分割しようとしている返信が見�
 
 #: includes/topics/functions.php:1435
 msgid "<strong>ERROR</strong>: Reply ID to split the topic from not found!"
-msgstr "<strong>エラー</strong>: トピックを分割する位置の返信 ID が見つかりません。"
+msgstr "<strong>エラー</strong>: sick(病名)を分割する位置の返信 ID が見つかりません。"
 
 #: includes/topics/functions.php:1182
 msgid "<strong>ERROR</strong>: You do not have the permissions to edit the destination topic."
-msgstr "<strong>エラー</strong>: トピックを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)を編集する権限がありません。"
 
 #: includes/topics/functions.php:1178
 msgid "<strong>ERROR</strong>: The topic you want to merge to was not found."
-msgstr "<strong>エラー</strong>: 統合先のトピックが見つかりませんでした。"
+msgstr "<strong>エラー</strong>: 統合先のsick(病名)が見つかりませんでした。"
 
 #: includes/topics/functions.php:1172
 msgid "<strong>ERROR</strong>: Destination topic ID not found."
-msgstr "<strong>エラー</strong>: 指定したトピック ID が見つかりません。"
+msgstr "<strong>エラー</strong>: 指定したsick(病名) ID が見つかりません。"
 
 #: includes/topics/functions.php:1158
 msgid "<strong>ERROR</strong>: The topic you want to merge was not found."
-msgstr "<strong>エラー</strong>: 統合するトピックが見つかりませんでした。"
+msgstr "<strong>エラー</strong>: 統合するsick(病名)が見つかりませんでした。"
 
 #: includes/topics/functions.php:602
 msgid "<strong>ERROR</strong>: Your topic cannot be edited at this time."
-msgstr "<strong>エラー</strong>: 現在トピックを編集できません。"
+msgstr "<strong>エラー</strong>: 現在sick(病名)を編集できません。"
 
 #: includes/topics/functions.php:550
 msgid "<strong>ERROR</strong>: This forum is a category. No topics can be created in it."
-msgstr "<strong>エラー</strong>: このフォーラムはカテゴリーです。この中に新規トピックを作成することはできません。"
+msgstr "<strong>エラー</strong>: このCategoryはカテゴリーです。この中に新規sick(病名)を作成することはできません。"
 
 #: includes/topics/functions.php:504
 msgid "<strong>ERROR</strong>: You do not have permission to edit that topic."
-msgstr "<strong>エラー</strong>: トピックを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)を編集する権限がありません。"
 
 #: includes/topics/functions.php:493
 msgid "<strong>ERROR</strong>: The topic you want to edit was not found."
-msgstr "<strong>エラー</strong>: 編集しようとしているトピックが見つかりません。"
+msgstr "<strong>エラー</strong>: 編集しようとしているsick(病名)が見つかりません。"
 
 #: includes/topics/functions.php:482 includes/topics/functions.php:1146
 msgid "<strong>ERROR</strong>: Topic ID not found."
-msgstr "<strong>エラー</strong>: トピック ID が見つかりません。"
+msgstr "<strong>エラー</strong>: sick(病名) ID が見つかりません。"
 
 #: includes/topics/functions.php:270
 msgid "<strong>ERROR</strong>: Your topic cannot be created at this time."
-msgstr "<strong>エラー</strong>: 現在トピックを作成することができません。"
+msgstr "<strong>エラー</strong>: 現在sick(病名)を作成することができません。"
 
 #: includes/topics/functions.php:265
 msgid "<strong>ERROR</strong>: Duplicate topic detected; it looks as though you&#8217;ve already said that!"
-msgstr "<strong>エラー</strong>: 重複しているトピックを削除しました。既に同じ書き込みを送信済みのようです。"
+msgstr "<strong>エラー</strong>: 重複しているsick(病名)を削除しました。既に同じ書き込みを送信済みのようです。"
 
 #: includes/topics/functions.php:251 includes/topics/functions.php:569
 msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new topics in it."
-msgstr "<strong>エラー</strong>: このフォーラムは非公開です。トピックを表示・新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryは非公開です。sick(病名)を表示・新規作成する権限がありません。"
 
 #: includes/topics/functions.php:245 includes/topics/functions.php:563
 msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new topics in it."
-msgstr "<strong>エラー</strong>: このフォーラムはプライベートです。トピックを表示・新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryはプライベートです。sick(病名)を表示・新規作成する権限がありません。"
 
 #: includes/topics/functions.php:239 includes/topics/functions.php:557
 msgid "<strong>ERROR</strong>: This forum has been closed to new topics."
-msgstr "<strong>エラー</strong>: このフォーラムへの新規トピック追加は締め切られています。"
+msgstr "<strong>エラー</strong>: このCategoryへの新規sick(病名)追加は締め切られています。"
 
 #: includes/topics/functions.php:232
 msgid "<strong>ERROR</strong>: This forum is a category. No topics can be created in this forum."
-msgstr "<strong>エラー</strong>: このフォーラムはカテゴリーです。この中に新しいトピックを作成することはできません。"
+msgstr "<strong>エラー</strong>: このCategoryはカテゴリーです。この中に新しいsick(病名)を作成することはできません。"
 
 #: includes/topics/functions.php:187 includes/topics/functions.php:597
 msgid "<strong>ERROR</strong>: Your topic cannot be empty."
-msgstr "<strong>エラー</strong>: トピック名を記入してください。"
+msgstr "<strong>エラー</strong>: sick(病名)名を記入してください。"
 
 #: includes/topics/functions.php:175 includes/topics/functions.php:585
 msgid "<strong>ERROR</strong>: Your topic needs a title."
-msgstr "<strong>エラー</strong>: トピックに件名がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)に件名がありません。"
 
 #: includes/topics/functions.php:150
 msgid "<strong>ERROR</strong>: You do not have permission to create new topics."
-msgstr "<strong>エラー</strong>: トピックを新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)を新規作成する権限がありません。"
 
 #: includes/search/template.php:405
 msgid "Viewing %2$s results (of %4$s total)"
@@ -1224,7 +1225,7 @@ msgstr[0] "%1$s件の返信スレッドを表示中"
 
 #: includes/replies/template.php:2237
 msgid "Split the topic from this reply"
-msgstr "この返信からトピックを分割"
+msgstr "この返信からsick(病名)を分割"
 
 #: includes/replies/template.php:2236
 msgid "Split"
@@ -1322,7 +1323,7 @@ msgstr "投稿一覧"
 
 #: includes/replies/functions.php:1578
 msgid "<strong>ERROR</strong>: There was a problem deleting the reply!"
-msgstr "<strong>エラー</strong>: トピックをゴミ箱へ移動する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)をゴミ箱へ移動する際に問題が発生しました。"
 
 #: includes/replies/functions.php:1570
 msgid "<strong>ERROR</strong>: There was a problem untrashing the reply!"
@@ -1346,11 +1347,11 @@ msgstr "<strong>エラー</strong>: 操作を行う権限がありません。"
 
 #: includes/replies/functions.php:1349 includes/topics/functions.php:1538
 msgid "<strong>ERROR</strong>: You do not have the permissions to create new topics. The reply could not be converted into a topic."
-msgstr "<strong>エラー</strong>: トピックを新規作成する権限がありません。返信をトピックに変換できませんでした。"
+msgstr "<strong>エラー</strong>: sick(病名)を新規作成する権限がありません。返信をsick(病名)に変換できませんでした。"
 
 #: includes/replies/functions.php:1344 includes/topics/functions.php:1533
 msgid "<strong>ERROR</strong>: There was a problem converting the reply into the topic. Please try again."
-msgstr "<strong>エラー</strong>: 返信をトピックに変換できませんでした。もう一度お試しください。"
+msgstr "<strong>エラー</strong>: 返信をsick(病名)に変換できませんでした。もう一度お試しください。"
 
 #: includes/replies/functions.php:1299 includes/replies/template.php:571
 #: includes/topics/functions.php:1294 includes/topics/functions.php:1652
@@ -1360,15 +1361,15 @@ msgstr "返信先: %s"
 
 #: includes/replies/functions.php:1290 includes/topics/functions.php:1496
 msgid "<strong>ERROR</strong>: You do not have the permissions to edit the destination topic!"
-msgstr "<strong>エラー</strong>: トピックを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: sick(病名)を編集する権限がありません。"
 
 #: includes/replies/functions.php:1285
 msgid "<strong>ERROR</strong>: The topic you want to move to was not found!"
-msgstr "<strong>エラー</strong>: 移動先のトピックが見つかりませんでした。"
+msgstr "<strong>エラー</strong>: 移動先のsick(病名)が見つかりませんでした。"
 
 #: includes/replies/functions.php:1275 includes/topics/functions.php:1483
 msgid "<strong>ERROR</strong>: Destination topic ID not found!"
-msgstr "<strong>エラー</strong>: 指定したトピック ID が見つかりません。"
+msgstr "<strong>エラー</strong>: 指定したsick(病名) ID が見つかりません。"
 
 #: includes/replies/functions.php:1262
 msgid "<strong>ERROR</strong>: You need to choose a valid move option."
@@ -1377,11 +1378,11 @@ msgstr "<strong>エラー</strong>: 有効な移動オプションを選択し�
 #: includes/replies/functions.php:1252 includes/topics/functions.php:1164
 #: includes/topics/functions.php:1462
 msgid "<strong>ERROR</strong>: You do not have the permissions to edit the source topic."
-msgstr "<strong>エラー</strong>: 元となるトピックを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: 元となるsick(病名)を編集する権限がありません。"
 
 #: includes/replies/functions.php:1241
 msgid "<strong>ERROR</strong>: The topic you want to move from was not found."
-msgstr "<strong>エラー</strong>: 移動元のトピックが見つかりませんでした。"
+msgstr "<strong>エラー</strong>: 移動元のsick(病名)が見つかりませんでした。"
 
 #: includes/replies/functions.php:1232
 msgid "<strong>ERROR</strong>: The reply you want to move was not found."
@@ -1409,11 +1410,11 @@ msgstr "<strong>エラー</strong>: 返信 ID が見つかりません。"
 
 #: includes/replies/functions.php:377 includes/replies/functions.php:702
 msgid "<strong>ERROR</strong>: There was a problem adding the tags to the topic."
-msgstr "<strong>エラー</strong>: トピックにタグを追加する際に問題が発生しました。"
+msgstr "<strong>エラー</strong>: sick(病名)にタグを追加する際に問題が発生しました。"
 
 #: includes/replies/functions.php:318
 msgid "<strong>ERROR</strong>: Topic is closed."
-msgstr "<strong>エラー</strong>: トピックはクローズされています。"
+msgstr "<strong>エラー</strong>: sick(病名)はクローズされています。"
 
 #: includes/replies/functions.php:294
 msgid "<strong>ERROR</strong>: Your reply cannot be created at this time."
@@ -1429,53 +1430,53 @@ msgstr "<strong>エラー</strong>: 返信の本文を入力してください�
 
 #: includes/replies/functions.php:246 includes/replies/functions.php:587
 msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new replies in it."
-msgstr "<strong>エラー</strong>: このフォーラムは非表示になっています。表示したり返信を新規作成したりする権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryは非表示になっています。表示したり返信を新規作成したりする権限がありません。"
 
 #: includes/replies/functions.php:240 includes/replies/functions.php:581
 msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new replies in it."
-msgstr "<strong>エラー</strong>: このフォーラムは非公開になっています。表示したり返信を新規作成したりする権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryは非公開になっています。表示したり返信を新規作成したりする権限がありません。"
 
 #: includes/replies/functions.php:234 includes/replies/functions.php:575
 msgid "<strong>ERROR</strong>: This forum has been closed to new replies."
-msgstr "<strong>エラー</strong>: このフォーラムへの新規返信追加は締め切られています。"
+msgstr "<strong>エラー</strong>: このCategoryへの新規返信追加は締め切られています。"
 
 #: includes/replies/functions.php:227 includes/replies/functions.php:568
 msgid "<strong>ERROR</strong>: This forum is a category. No replies can be created in this forum."
-msgstr "<strong>エラー</strong>: このフォーラムはカテゴリーです。ここには返信できません。"
+msgstr "<strong>エラー</strong>: このCategoryはカテゴリーです。ここには返信できません。"
 
 #: includes/replies/functions.php:213 includes/topics/functions.php:218
 msgid "<strong>ERROR</strong>: Forum does not exist."
-msgstr "<strong>エラー</strong>: フォーラムが存在しません。"
+msgstr "<strong>エラー</strong>: Categoryが存在しません。"
 
 #: includes/replies/functions.php:209 includes/topics/functions.php:214
 msgid "<strong>ERROR</strong>: Forum ID cannot be a negative number."
-msgstr "<strong>エラー</strong>: フォーラム ID を負数に設定することはできません。"
+msgstr "<strong>エラー</strong>: Category ID を負数に設定することはできません。"
 
 #: includes/replies/functions.php:195 includes/topics/functions.php:200
 msgid "<strong>ERROR</strong>: Forum ID must be a number."
-msgstr "<strong>エラー</strong>: フォーラム ID は数字にしてください。"
+msgstr "<strong>エラー</strong>: Category ID は数字にしてください。"
 
 #: includes/replies/functions.php:191 includes/replies/functions.php:205
 #: includes/topics/functions.php:196 includes/topics/functions.php:210
 #: includes/topics/functions.php:535
 msgid "<strong>ERROR</strong>: Forum ID is missing."
-msgstr "<strong>エラー</strong>: フォーラム ID を入力してください。"
+msgstr "<strong>エラー</strong>: Category ID を入力してください。"
 
 #: includes/replies/functions.php:172
 msgid "<strong>ERROR</strong>: Topic does not exist."
-msgstr "<strong>エラー</strong>: トピックが存在しません。"
+msgstr "<strong>エラー</strong>: sick(病名)が存在しません。"
 
 #: includes/replies/functions.php:168
 msgid "<strong>ERROR</strong>: Topic ID cannot be a negative number."
-msgstr "<strong>エラー</strong>: トピック ID を負数に設定することはできません。"
+msgstr "<strong>エラー</strong>: sick(病名) ID を負数に設定することはできません。"
 
 #: includes/replies/functions.php:158
 msgid "<strong>ERROR</strong>: Topic ID must be a number."
-msgstr "<strong>エラー</strong>: トピック ID は数字にしてください。"
+msgstr "<strong>エラー</strong>: sick(病名) ID は数字にしてください。"
 
 #: includes/replies/functions.php:154
 msgid "<strong>ERROR</strong>: Topic ID is missing."
-msgstr "<strong>エラー</strong>: トピック ID がありません。"
+msgstr "<strong>エラー</strong>: sick(病名) ID がありません。"
 
 #: includes/replies/functions.php:142
 msgid "<strong>ERROR</strong>: You do not have permission to reply."
@@ -1483,11 +1484,11 @@ msgstr "<strong>エラー</strong>: 返信する権限がありません。"
 
 #: includes/forums/template.php:2021
 msgid "This forum is empty."
-msgstr "空のフォーラムです。"
+msgstr "空のCategoryです。"
 
 #: includes/forums/template.php:2017
 msgid "This forum contains %1$s."
-msgstr "このフォーラムには%1$sが含まれています。"
+msgstr "このCategoryには%1$sが含まれています。"
 
 #: includes/forums/template.php:2015
 msgid "This category contains %1$s."
@@ -1495,7 +1496,7 @@ msgstr "このカテゴリーには%1$sが含まれています。"
 
 #: includes/forums/template.php:2007
 msgid "This forum contains %1$s and %2$s."
-msgstr "このフォーラムには%1$sと%2$sが含まれています。"
+msgstr "このCategoryには%1$sと%2$sが含まれています。"
 
 #: includes/forums/template.php:2005
 msgid "This category contains %1$s and %2$s."
@@ -1503,7 +1504,7 @@ msgstr "このカテゴリーには%1$sと%2$sが含まれています。"
 
 #: includes/forums/template.php:1995
 msgid "This forum contains %1$s, and was last updated by %2$s %3$s."
-msgstr "このフォーラムには%1$sが含まれ、%3$sに %2$s さんが最後の更新を行いました。"
+msgstr "このCategoryには%1$sが含まれ、%3$sに %2$s さんが最後の更新を行いました。"
 
 #: includes/forums/template.php:1993
 msgid "This category contains %1$s, and was last updated by %2$s %3$s."
@@ -1511,7 +1512,7 @@ msgstr "このカテゴリーには%1$sが含まれ、%3$sに %2$s さんが最�
 
 #: includes/forums/template.php:1987
 msgid "This forum contains %1$s and %2$s, and was last updated by %3$s %4$s."
-msgstr "このトピックには%1$sと%2$sが含まれ、%4$sに %3$s さんが最後の更新を行いました。"
+msgstr "このsick(病名)には%1$sと%2$sが含まれ、%4$sに %3$s さんが最後の更新を行いました。"
 
 #: includes/forums/template.php:1985
 msgid "This category contains %1$s and %2$s, and was last updated by %3$s %4$s."
@@ -1529,7 +1530,7 @@ msgstr "(+ 非表示%d件)"
 #: includes/forums/template.php:1238 includes/forums/template.php:1976
 msgid "%s topic"
 msgid_plural "%s topics"
-msgstr[0] "%s件のトピック"
+msgstr[0] "%s件のsick(病名)"
 
 #: includes/forums/template.php:841 includes/topics/template.php:1847
 #: includes/users/template.php:1059
@@ -1543,31 +1544,31 @@ msgstr "購読"
 
 #: includes/forums/template.php:61 templates/default/bbpress/form-forum.php:118
 msgid "Parent Forum:"
-msgstr "親フォーラム:"
+msgstr "親Category:"
 
 #: includes/forums/template.php:60
 msgid "No forums found in Trash"
-msgstr "ゴミ箱に含まれているフォーラムはありません"
+msgstr "ゴミ箱に含まれているCategoryはありません"
 
 #: includes/forums/template.php:59
 msgid "No forums found"
-msgstr "フォーラムが見つかりませんでした。"
+msgstr "Categoryが見つかりませんでした。"
 
 #: includes/forums/template.php:56 includes/forums/template.php:57
 msgid "View Forum"
-msgstr "フォーラムを表示"
+msgstr "Categoryを表示"
 
 #: includes/forums/template.php:54
 msgid "Edit Forum"
-msgstr "フォーラムを編集"
+msgstr "Categoryを編集"
 
 #: includes/forums/template.php:52 templates/default/bbpress/form-forum.php:37
 msgid "Create New Forum"
-msgstr "フォーラムを新規作成"
+msgstr "Categoryを新規作成"
 
 #: includes/forums/template.php:51 includes/forums/template.php:55
 msgid "New Forum"
-msgstr "フォーラムを新規作成"
+msgstr "Categoryを新規作成"
 
 #: includes/forums/functions.php:1632
 msgctxt "Make forum hidden"
@@ -1592,7 +1593,7 @@ msgstr "カテゴリー"
 #: includes/forums/functions.php:1616
 msgctxt "Forum accepts new topics"
 msgid "Forum"
-msgstr "フォーラム"
+msgstr "Category"
 
 #: includes/forums/functions.php:1603
 msgctxt "Close the forum"
@@ -1606,27 +1607,27 @@ msgstr "オープン"
 
 #: includes/forums/functions.php:472
 msgid "<strong>ERROR</strong>: Your forum cannot be edited at this time."
-msgstr "<strong>エラー</strong>: 現在フォーラムを編集することはできません。"
+msgstr "<strong>エラー</strong>: 現在Categoryを編集することはできません。"
 
 #: includes/forums/functions.php:405
 msgid "<strong>ERROR</strong>: You do not have permission to edit that forum."
-msgstr "<strong>エラー</strong>: フォーラムを編集する権限がありません。"
+msgstr "<strong>エラー</strong>: Categoryを編集する権限がありません。"
 
 #: includes/forums/functions.php:400
 msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
-msgstr "<strong>エラー</strong>: 編集しようとしているフォーラムが見つかりません。"
+msgstr "<strong>エラー</strong>: 編集しようとしているCategoryが見つかりません。"
 
 #: includes/forums/functions.php:384
 msgid "<strong>ERROR</strong>: Forum ID not found."
-msgstr "<strong>エラー</strong>: フォーラム ID が見つかりません。"
+msgstr "<strong>エラー</strong>: Category ID が見つかりません。"
 
 #: includes/forums/functions.php:220
 msgid "<strong>ERROR</strong>: Your forum cannot be created at this time."
-msgstr "<strong>エラー</strong>: 現在フォーラムを作成できません。"
+msgstr "<strong>エラー</strong>: 現在Categoryを作成できません。"
 
 #: includes/forums/functions.php:215
 msgid "<strong>ERROR</strong>: This forum already exists."
-msgstr "<strong>エラー</strong>: フォーラムが既に存在しています。"
+msgstr "<strong>エラー</strong>: Categoryが既に存在しています。"
 
 #: includes/forums/functions.php:210 includes/replies/functions.php:284
 #: includes/topics/functions.php:260
@@ -1635,35 +1636,35 @@ msgstr "<strong>エラー</strong>: もう少しゆっくり操作してくだ�
 
 #: includes/forums/functions.php:203 includes/forums/functions.php:441
 msgid "<strong>ERROR</strong>: This forum is hidden and you do not have the capability to read or create new forums in it."
-msgstr "<strong>エラー</strong>: このフォーラムは非表示になっています。フォーラムを表示したり新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryは非表示になっています。Categoryを表示したり新規作成する権限がありません。"
 
 #: includes/forums/functions.php:198 includes/forums/functions.php:436
 msgid "<strong>ERROR</strong>: This forum is private and you do not have the capability to read or create new forums in it."
-msgstr "<strong>エラー</strong>: このフォーラムは非公開になっています。フォーラムを表示したり新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: このCategoryは非公開になっています。Categoryを表示したり新規作成する権限がありません。"
 
 #: includes/forums/functions.php:193 includes/forums/functions.php:431
 msgid "<strong>ERROR</strong>: This forum has been closed to new forums."
-msgstr "<strong>エラー</strong>: このフォーラムへの新規フォーラム追加は締め切られています。"
+msgstr "<strong>エラー</strong>: このCategoryへの新規Category追加は締め切られています。"
 
 #: includes/forums/functions.php:188
 msgid "<strong>ERROR</strong>: This forum is a category. No forums can be created in this forum."
-msgstr "<strong>エラー</strong>: このフォーラムはカテゴリーです。このフォーラム内に別のフォーラムを作成することはできません。"
+msgstr "<strong>エラー</strong>: このCategoryはカテゴリーです。このCategoryに別のCategoryを作成することはできません。"
 
 #: includes/forums/functions.php:181
 msgid "<strong>ERROR</strong>: Your forum must have a parent."
-msgstr "<strong>エラー</strong>: このフォーラムには親フォーラムが必要です。"
+msgstr "<strong>エラー</strong>: このCategoryには親Categoryが必要です。"
 
 #: includes/forums/functions.php:167 includes/forums/functions.php:467
 msgid "<strong>ERROR</strong>: Your forum description cannot be empty."
-msgstr "<strong>エラー</strong>: フォーラムの説明を記入してください。"
+msgstr "<strong>エラー</strong>: Categoryの説明を記入してください。"
 
 #: includes/forums/functions.php:155 includes/forums/functions.php:455
 msgid "<strong>ERROR</strong>: Your forum needs a title."
-msgstr "<strong>エラー</strong>: フォーラムのタイトルを入力してください。"
+msgstr "<strong>エラー</strong>: Categoryのタイトルを入力してください。"
 
 #: includes/forums/functions.php:131
 msgid "<strong>ERROR</strong>: You do not have permission to create new forums."
-msgstr "<strong>エラー</strong>: フォーラムを新規作成する権限がありません。"
+msgstr "<strong>エラー</strong>: Categoryを新規作成する権限がありません。"
 
 #: includes/extend/buddypress/notifications.php:165
 msgid "<strong>ERROR</strong>: You do not have permission to mark notifications for that user."
@@ -1683,29 +1684,29 @@ msgstr "%d件の新着返信があります。"
 
 #: includes/extend/buddypress/notifications.php:48
 msgid "Topic Replies"
-msgstr "トピックの返信"
+msgstr "sick(病名)の返信"
 
 #: includes/extend/buddypress/loader.php:293
 #: templates/default/bbpress/user-subscriptions.php:34
 msgid "Subscribed Topics"
-msgstr "購読中のトピック"
+msgstr "購読中のsick(病名)"
 
 #: includes/extend/buddypress/loader.php:105
 msgid "Search Forums..."
-msgstr "フォーラムの検索"
+msgstr "Categoryの検索"
 
 #: includes/extend/buddypress/groups.php:775
 msgid "This group does not currently have a forum."
-msgstr "このグループには現在フォーラムが存在しません。"
+msgstr "このグループには現在Categoryが存在しません。"
 
 #: includes/extend/buddypress/groups.php:478
 msgid "Group Forum"
-msgstr "グループフォーラム"
+msgstr "グループCategory"
 
 #: includes/extend/buddypress/groups.php:437
 msgctxt "group admin edit screen"
 msgid "Discussion Forum"
-msgstr "ディスカッションフォーラム"
+msgstr "ディスカッションCategory"
 
 #: includes/extend/buddypress/groups.php:339
 #: includes/extend/buddypress/groups.php:498
@@ -1728,46 +1729,46 @@ msgstr "設定を保存"
 
 #: includes/extend/buddypress/groups.php:299
 msgid "Network administrators can reconfigure which forum belongs to this group."
-msgstr "ネットワーク管理者はこのグループに所属するフォーラムを再設定できます。"
+msgstr "ネットワーク管理者はこのグループに所属するCategoryを再設定できます。"
 
 #: includes/extend/buddypress/groups.php:291
 msgid "Group Forum:"
-msgstr "グループフォーラム:"
+msgstr "グループCategory:"
 
 #: includes/extend/buddypress/groups.php:286
 msgid "Saying no will not delete existing forum content."
-msgstr "「いいえ」を選択しても、既存のフォーラムのコンテンツは削除されません。"
+msgstr "「いいえ」を選択しても、既存のCategoryのコンテンツは削除されません。"
 
 #: includes/extend/buddypress/groups.php:283
 #: includes/extend/buddypress/groups.php:483
 msgid "Yes. I want this group to have a forum."
-msgstr "はい、このグループのフォーラムを作成します。"
+msgstr "はい、このグループのCategoryを作成します。"
 
 #: includes/extend/buddypress/groups.php:279
 #: includes/extend/buddypress/groups.php:480
 msgid "Create a discussion forum to allow members of this group to communicate in a structured, bulletin-board style fashion."
-msgstr "このグループのメンバーが構造化された掲示板スタイルで連絡を取り合えるようにするには、ディスカッションフォーラムを作成してください。"
+msgstr "このグループのメンバーが構造化された掲示板スタイルで連絡を取り合えるようにするには、ディスカッションCategoryを作成してください。"
 
 #: includes/extend/buddypress/groups.php:275
 #: includes/extend/buddypress/groups.php:278
 msgid "Group Forum Settings"
-msgstr "グループフォーラム設定"
+msgstr "グループCategory設定"
 
 #: includes/extend/buddypress/activity.php:565
 msgid "%1$s replied to the topic %2$s in the forum %3$s"
-msgstr "%1$s さんがフォーラム「%2$s」の「%3$s」というトピックに返信しました。"
+msgstr "%1$s さんがCategory「%2$s」の「%3$s」というsick(病名)に返信しました。"
 
 #: includes/extend/buddypress/activity.php:420
 msgid "%1$s started the topic %2$s in the forum %3$s"
-msgstr "%1$s さんが「%3$s」フォーラムで「%2$s」というトピックを立てました。 "
+msgstr "%1$s さんが「%3$s」Categoryで「%2$s」というsick(病名)を立てました。 "
 
 #: includes/extend/buddypress/activity.php:196
 msgid "New forum reply"
-msgstr "新規フォーラム返信"
+msgstr "新規Category返信"
 
 #: includes/extend/buddypress/activity.php:195
 msgid "New forum topic"
-msgstr "新規フォーラムトピック"
+msgstr "新規Categorysick(病名)"
 
 #: includes/extend/akismet.php:793
 msgid "No recorded history. Akismet has not checked this post."
@@ -1815,7 +1816,7 @@ msgstr "Re: Hello World!"
 
 #: includes/core/update.php:189
 msgid "I am the first topic in your new forums."
-msgstr "新規フォーラムの1つ目のトピックです。"
+msgstr "新規Categoryの1つ目のsick(病名)です。"
 
 #: includes/core/update.php:188
 msgid "Hello World!"
@@ -1831,7 +1832,7 @@ msgstr "一般"
 
 #: includes/core/capabilities.php:531
 msgid "Editable forum roles no longer exist."
-msgstr "現在、編集可能なフォーラム権限グループは存在しません。"
+msgstr "現在、編集可能なCategory権限グループは存在しません。"
 
 #: includes/common/widgets.php:1252
 msgid "Recent Replies"
@@ -1879,7 +1880,7 @@ msgstr "最近の返信一覧。"
 
 #: includes/common/widgets.php:1048
 msgid "Forum Statistics"
-msgstr "フォーラム統計情報"
+msgstr "Category統計情報"
 
 #: includes/common/widgets.php:951
 msgid "(bbPress) Statistics"
@@ -1887,24 +1888,24 @@ msgstr "(bbPress) 統計情報"
 
 #: includes/common/widgets.php:948
 msgid "Some statistics from your forum."
-msgstr "フォーラム統計情報の一部です。"
+msgstr "Category統計情報の一部です。"
 
 #: includes/common/widgets.php:914
 msgid "Recent Topics"
-msgstr "最近のトピック"
+msgstr "最近のsick(病名)"
 
 #: includes/common/widgets.php:897
 msgid "Topics With Recent Replies"
-msgstr "最近返信があったトピック"
+msgstr "最近返信があったsick(病名)"
 
 #: includes/common/widgets.php:896
 #: templates/default/extras/page-forum-statistics.php:34
 msgid "Popular Topics"
-msgstr "人気のトピック"
+msgstr "人気のsick(病名)"
 
 #: includes/common/widgets.php:895
 msgid "Newest Topics"
-msgstr "最新のトピック"
+msgstr "最新のsick(病名)"
 
 #: includes/common/widgets.php:893
 msgid "Order By:"
@@ -1912,7 +1913,7 @@ msgstr "並び順:"
 
 #: includes/common/widgets.php:890
 msgid "Show topic author:"
-msgstr "トピック作成者を表示:"
+msgstr "sick(病名)作成者を表示:"
 
 #: includes/common/widgets.php:889 includes/common/widgets.php:1236
 msgid "Show post date:"
@@ -1920,7 +1921,7 @@ msgstr "投稿日を表示:"
 
 #: includes/common/widgets.php:877
 msgid "Maximum topics to show:"
-msgstr "表示するトピックの上限:"
+msgstr "表示するsick(病名)の上限:"
 
 #: includes/common/widgets.php:815
 msgctxt "widgets"
@@ -1929,11 +1930,11 @@ msgstr "投稿者: %1$s"
 
 #: includes/common/widgets.php:695
 msgid "(bbPress) Recent Topics"
-msgstr "(bbPress) 最近のトピック"
+msgstr "(bbPress) 最近のsick(病名)"
 
 #: includes/common/widgets.php:692
 msgid "A list of recent topics, sorted by popularity or freshness."
-msgstr "人気順または新しい順に並べられた最近のトピック一覧。"
+msgstr "人気順または新しい順に並べられた最近のsick(病名)一覧。"
 
 #: includes/common/widgets.php:646 includes/common/widgets.php:886
 msgid "\"0\" to show only root - \"any\" to show all"
@@ -1941,35 +1942,35 @@ msgstr "「0」でルートのみ、「any」ですべてを表示します。"
 
 #: includes/common/widgets.php:640 includes/common/widgets.php:880
 msgid "Parent Forum ID:"
-msgstr "親フォーラム ID:"
+msgstr "親Category ID:"
 
 #: includes/common/widgets.php:515
 msgid "(bbPress) Forums List"
-msgstr "(bbPress) フォーラム一覧"
+msgstr "(bbPress) Category一覧"
 
 #: includes/common/widgets.php:512
 msgid "A list of forums with an option to set the parent."
-msgstr "親を設定できるオプションのあるフォーラム一覧。"
+msgstr "親を設定できるオプションのあるCategory一覧。"
 
 #: includes/common/widgets.php:483 includes/forums/template.php:58
 msgid "Search Forums"
-msgstr "フォーラムを検索"
+msgstr "Categoryを検索"
 
 #: includes/common/widgets.php:387
 msgid "(bbPress) Forum Search Form"
-msgstr "(bbPress) フォーラム用検索フォーム"
+msgstr "(bbPress) Category用検索フォーム"
 
 #: includes/common/widgets.php:384
 msgid "The bbPress forum search form."
-msgstr "bbPress フォーラム用の検索フォーム。"
+msgstr "bbPress Category用の検索フォーム。"
 
 #: includes/common/widgets.php:246
 msgid "(bbPress) Topic Views List"
-msgstr "(bbPress) トピック表示一覧"
+msgstr "(bbPress) sick(病名)表示一覧"
 
 #: includes/common/widgets.php:243
 msgid "A list of registered optional topic views."
-msgstr "登録済みオプショントピック表示の一覧。"
+msgstr "登録済みオプションsick(病名)表示の一覧。"
 
 #: includes/common/widgets.php:195
 msgid "Lost Password URI:"
@@ -2057,7 +2058,7 @@ msgstr "%s件の返信"
 
 #: includes/common/template.php:2609
 msgid "%s Topics"
-msgstr "%sのトピック"
+msgstr "%sのsick(病名)"
 
 #: includes/common/template.php:2604
 msgctxt "User viewing another users profile"
@@ -2071,15 +2072,15 @@ msgstr "あなたの"
 
 #: includes/common/template.php:2582
 msgid "Topic: %s"
-msgstr "トピック: %s"
+msgstr "sick(病名): %s"
 
 #: includes/common/template.php:2577
 msgid "Forum: %s"
-msgstr "フォーラム: %s"
+msgstr "Category: %s"
 
 #: includes/common/template.php:2570
 msgid "Topic Tag Edit: %s"
-msgstr "トピックタグの編集: %s"
+msgstr "sick(病名)タグの編集: %s"
 
 #: includes/common/template.php:2565
 msgid "Reply Edit: %s"
@@ -2087,11 +2088,11 @@ msgstr "返信を編集: %s"
 
 #: includes/common/template.php:2560
 msgid "Topic Edit: %s"
-msgstr "トピックを編集: %s"
+msgstr "sick(病名)を編集: %s"
 
 #: includes/common/template.php:2555
 msgid "Forum Edit: %s"
-msgstr "フォーラムを編集: %s"
+msgstr "Categoryを編集: %s"
 
 #: includes/common/template.php:2501
 msgid "Log Out"
@@ -2117,7 +2118,7 @@ msgstr "編集"
 #: templates/default/extras/taxonomy-topic-tag-edit.php:17
 #: templates/default/extras/taxonomy-topic-tag.php:17
 msgid "Topic Tag: %s"
-msgstr "トピックタグ: %s"
+msgstr "sick(病名)タグ: %s"
 
 #: includes/common/template.php:2208
 msgid "(Edit)"
@@ -2133,11 +2134,11 @@ msgstr "何もありません。"
 
 #: includes/common/template.php:1462
 msgid "No forums available"
-msgstr "フォーラムがありません。"
+msgstr "Categoryがありません。"
 
 #: includes/common/template.php:1457
 msgid "No topics available"
-msgstr "トピックがありません。"
+msgstr "sick(病名)がありません。"
 
 #: includes/common/functions.php:2024
 msgid "Conditional query tags do not work before the query is run. Before then, they always return false."
@@ -2161,13 +2162,13 @@ msgstr ""
 "\n"
 "%2$s\n"
 "\n"
-"トピックへのリンク: %3$s\n"
+"sick(病名)へのリンク: %3$s\n"
 "\n"
 "—————\n"
 "\n"
-"フォーラムを購読中のためこのメールが送信されました。\n"
+"Categoryを購読中のためこのメールが送信されました。\n"
 "\n"
-"これらのメールの購読を解除するには、ログインして該当トピックのページを開いてください。"
+"これらのメールの購読を解除するには、ログインして該当sick(病名)のページを開いてください。"
 
 #: includes/common/functions.php:1099
 msgid ""
@@ -2191,9 +2192,9 @@ msgstr ""
 "\n"
 "—————\n"
 "\n"
-"フォーラムトピックを購読中のためこのメールが送信されました。\n"
+"Categorysick(病名)を購読中のためこのメールが送信されました。\n"
 "\n"
-"これらのメールの購読を解除するには、ログインして該当トピックのページを開いてください。"
+"これらのメールの購読を解除するには、ログインして該当sick(病名)のページを開いてください。"
 
 #: includes/common/functions.php:628
 msgid "<strong>ERROR</strong>: Invalid email address submitted!"
@@ -2290,7 +2291,7 @@ msgstr "変更"
 
 #: includes/admin/users.php:138 includes/admin/users.php:140
 msgid "Change forum role to&hellip;"
-msgstr "フォーラム権限グループを変更:"
+msgstr "Category権限グループを変更:"
 
 #: includes/admin/users.php:96 includes/admin/users.php:100
 #: includes/users/template.php:1290
@@ -2300,48 +2301,48 @@ msgstr "&mdash; このサイトでの権限なし &mdash;"
 #: includes/admin/users.php:87 includes/admin/users.php:218
 #: templates/default/bbpress/form-user-roles.php:20
 msgid "Forum Role"
-msgstr "フォーラム権限グループ"
+msgstr "Category権限グループ"
 
 #: includes/admin/topics.php:953
 msgid "Topic draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
-msgstr "トピックの下書きを更新しました。<a target=\"_blank\" href=\"%s\">トピックをプレビュー</a>"
+msgstr "sick(病名)の下書きを更新しました。<a target=\"_blank\" href=\"%s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/topics.php:946
 msgid "Topic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview topic</a>"
-msgstr "トピック「<strong>%1$s</strong>」を予約投稿しました。<a target=\"_blank\" href=\"%2$s\">トピックをプレビュー</a>"
+msgstr "sick(病名)「<strong>%1$s</strong>」を予約投稿しました。<a target=\"_blank\" href=\"%2$s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/topics.php:943
 msgid "Topic submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
-msgstr "トピックを送信しました。<a target=\"_blank\" href=\"%2$s\">トピックをプレビュー</a>"
+msgstr "sick(病名)を送信しました。<a target=\"_blank\" href=\"%2$s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/topics.php:940
 msgid "Topic saved."
-msgstr "トピックを保存しました。"
+msgstr "sick(病名)を保存しました。"
 
 #: includes/admin/topics.php:937
 msgid "Topic created. <a href=\"%s\">View topic</a>"
-msgstr "トピックを作成しました。<a href=\"%s\">トピックを表示</a>"
+msgstr "sick(病名)を作成しました。<a href=\"%s\">sick(病名)を表示</a>"
 
 #. translators: %s: date and time of the revision
 #: includes/admin/topics.php:933
 msgid "Topic restored to revision from %s"
-msgstr "リビジョン %s からトピックを復元しました"
+msgstr "リビジョン %s からsick(病名)を復元しました"
 
 #: includes/admin/topics.php:928
 msgid "Topic updated."
-msgstr "トピックを更新しました。"
+msgstr "sick(病名)を更新しました。"
 
 #: includes/admin/topics.php:919
 msgid "Topic updated. <a href=\"%s\">View topic</a>"
-msgstr "トピックを更新しました。<a href=\"%s\">トピックを表示</a>"
+msgstr "sick(病名)を更新しました。<a href=\"%s\">sick(病名)を表示</a>"
 
 #: includes/admin/topics.php:809
 msgid "Mark this topic as spam"
-msgstr "スパムとしてこのトピックをマーク"
+msgstr "スパムとしてこのsick(病名)をマーク"
 
 #: includes/admin/topics.php:807
 msgid "Mark the topic as not spam"
-msgstr "非スパムとしてトピックをマーク"
+msgstr "非スパムとしてsick(病名)をマーク"
 
 #: includes/admin/topics.php:800 includes/topics/template.php:2747
 msgid "(to front)"
@@ -2349,7 +2350,7 @@ msgstr "(フロントへ)"
 
 #: includes/admin/topics.php:800
 msgid "Stick this topic to front"
-msgstr "このトピックを先頭に固定"
+msgstr "このsick(病名)を先頭に固定"
 
 #: includes/admin/topics.php:800 includes/topics/template.php:2745
 msgid "Stick"
@@ -2357,7 +2358,7 @@ msgstr "固定"
 
 #: includes/admin/topics.php:800
 msgid "Stick this topic to its forum"
-msgstr "このトピックをフォーラムの上部に固定表示"
+msgstr "このsick(病名)をCategoryの上部に固定表示"
 
 #: includes/admin/topics.php:797 includes/topics/template.php:2746
 msgid "Unstick"
@@ -2365,7 +2366,7 @@ msgstr "固定を解除"
 
 #: includes/admin/topics.php:797
 msgid "Unstick this topic"
-msgstr "このトピックの上部固定表示を解除"
+msgstr "このsick(病名)の上部固定表示を解除"
 
 #: includes/admin/topics.php:788
 msgctxt "Open a Topic"
@@ -2374,7 +2375,7 @@ msgstr "オープン"
 
 #: includes/admin/topics.php:788
 msgid "Open this topic"
-msgstr "このトピックをオープン"
+msgstr "このsick(病名)をオープン"
 
 #: includes/admin/topics.php:786
 msgctxt "Close a Topic"
@@ -2383,7 +2384,7 @@ msgstr "クローズ"
 
 #: includes/admin/topics.php:786
 msgid "Close this topic"
-msgstr "このトピックをクローズ"
+msgstr "このsick(病名)をクローズ"
 
 #: includes/admin/topics.php:729 includes/topics/template.php:2064
 msgid "No Replies"
@@ -2392,7 +2393,7 @@ msgstr "返信なし"
 #: includes/admin/topics.php:694 includes/extend/buddypress/groups.php:295
 #: templates/default/bbpress/form-topic.php:117
 msgid "(No Forum)"
-msgstr "(フォーラムなし)"
+msgstr "(Categoryなし)"
 
 #: includes/admin/topics.php:635 templates/default/bbpress/loop-topics.php:20
 msgid "Voices"
@@ -2400,159 +2401,159 @@ msgstr "参加者"
 
 #: includes/admin/topics.php:599
 msgid "Topic \"%1$s\" successfully unmarked as spam."
-msgstr "トピック「%1$s」のスパム判定を解除しました。"
+msgstr "sick(病名)「%1$s」のスパム判定を解除しました。"
 
 #: includes/admin/topics.php:599
 msgid "There was a problem unmarking the topic \"%1$s\" as spam."
-msgstr "トピック「%1$s」のスパム解除の際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」のスパム解除の際に問題が発生しました。"
 
 #: includes/admin/topics.php:595
 msgid "Topic \"%1$s\" successfully marked as spam."
-msgstr "トピック「%1$s」をスパムとしてマークしました。"
+msgstr "sick(病名)「%1$s」をスパムとしてマークしました。"
 
 #: includes/admin/topics.php:595
 msgid "There was a problem marking the topic \"%1$s\" as spam."
-msgstr "トピック「%1$s」をスパムとしてマークする際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」をスパムとしてマークする際に問題が発生しました。"
 
 #: includes/admin/topics.php:591
 msgid "Topic \"%1$s\" successfully unsticked."
-msgstr "トピック「%1$s」の上部固定投稿を解除しました。"
+msgstr "sick(病名)「%1$s」の上部固定投稿を解除しました。"
 
 #: includes/admin/topics.php:591
 msgid "There was a problem unsticking the topic \"%1$s\"."
-msgstr "トピック「%1$s」の上部固定投稿を解除する際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」の上部固定投稿を解除する際に問題が発生しました。"
 
 #: includes/admin/topics.php:587
 msgid "Topic \"%1$s\" successfully sticked."
-msgstr "トピック「%1$s」を上部固定投稿にしました。"
+msgstr "sick(病名)「%1$s」を上部固定投稿にしました。"
 
 #: includes/admin/topics.php:587
 msgid "There was a problem sticking the topic \"%1$s\"."
-msgstr "トピック「%1$s」を上部固定投稿にする際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」を上部固定投稿にする際に問題が発生しました。"
 
 #: includes/admin/topics.php:583
 msgid "Topic \"%1$s\" successfully sticked to front."
-msgstr "トピック「%1$s」をフロントページ固定投稿にしました。"
+msgstr "sick(病名)「%1$s」をフロントページ固定投稿にしました。"
 
 #: includes/admin/topics.php:583
 msgid "There was a problem sticking the topic \"%1$s\" to front."
-msgstr "トピック「%1$s」をフロントページ固定投稿にする際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」をフロントページ固定投稿にする際に問題が発生しました。"
 
 #: includes/admin/topics.php:579
 msgid "Topic \"%1$s\" successfully closed."
-msgstr "トピック「%1$s」をクローズしました。"
+msgstr "sick(病名)「%1$s」をクローズしました。"
 
 #: includes/admin/topics.php:579
 msgid "There was a problem closing the topic \"%1$s\"."
-msgstr "トピック「%1$s」をクローズする際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」をクローズする際に問題が発生しました。"
 
 #: includes/admin/topics.php:575
 msgid "Topic \"%1$s\" successfully opened."
-msgstr "トピック「%1$s」をオープンしました。"
+msgstr "sick(病名)「%1$s」をオープンしました。"
 
 #: includes/admin/topics.php:575
 msgid "There was a problem opening the topic \"%1$s\"."
-msgstr "トピック「%1$s」をオープンする際に問題が発生しました。"
+msgstr "sick(病名)「%1$s」をオープンする際に問題が発生しました。"
 
 #: includes/admin/topics.php:485
 msgid "The topic was not found!"
-msgstr "トピックが見つかりませんでした。"
+msgstr "sick(病名)が見つかりませんでした。"
 
 #: includes/admin/topics.php:223
 msgid "<strong>Topic Type</strong> dropdown indicates the sticky status of the topic. Selecting the super sticky option would stick the topic to the front of your forums, i.e. the topic index, sticky option would stick the topic to its respective forum. Selecting normal would not stick the topic anywhere."
-msgstr "<strong>トピックの種類</strong>ドロップダウンは、トピックの固定表示状態を示します。最上部固定オプションを選択するとフォーラム全体のフロント (トピックインデックス) にトピックが表示され、固定表示オプションではそのトピックを含むフォーラムの上部に表示されます。通常モードを選択すると、トピックはどこにも固定表示されません。"
+msgstr "<strong>sick(病名)の種類</strong>ドロップダウンは、sick(病名)の固定表示状態を示します。最上部固定オプションを選択するとCategory全体のフロント (sick(病名)インデックス) にsick(病名)が表示され、固定表示オプションではそのsick(病名)を含むCategoryの上部に表示されます。通常モードを選択すると、sick(病名)はどこにも固定表示されません。"
 
 #: includes/admin/topics.php:222
 msgid "<strong>Forum</strong> dropdown determines the parent forum that the topic belongs to. Select the forum or category from the dropdown, or leave the default (No Forum) to post the topic without an assigned forum."
-msgstr "<strong>フォーラム</strong>ドロップダウンはトピックが属する親フォーラムを決定します。フォーラムまたはカテゴリーを選択するか、トピックのフォーラムに返信するにはデフォルトの「フォーラムなし」のままにしてください。"
+msgstr "<strong>Category</strong>ドロップダウンはsick(病名)が属する親Categoryを決定します。Categoryまたはカテゴリーを選択するか、sick(病名)のCategoryに返信するにはデフォルトの「Categoryなし」のままにしてください。"
 
 #: includes/admin/topics.php:220
 msgid "Select the attributes that your topic should have:"
-msgstr "トピックの属性を選択してください:"
+msgstr "sick(病名)の属性を選択してください:"
 
 #: includes/admin/topics.php:218 includes/admin/topics.php:255
 msgid "Topic Attributes"
-msgstr "トピック属性"
+msgstr "sick(病名)属性"
 
 #: includes/admin/topics.php:213
 msgid "<strong>Featured Image</strong> - This allows you to associate an image with your topic without inserting it. This is usually useful only if your theme makes use of the featured image as a topic thumbnail on the home page, a custom header, etc."
-msgstr "<strong>アイキャッチ画像</strong> - トピック内に挿入することなく、画像をトピックに関連付けることができます。アイキャッチ画像をホームページでのトピックサムネイルや、カスタムヘッダーなどに使用できるテーマを利用している場合には便利です。"
+msgstr "<strong>アイキャッチ画像</strong> - sick(病名)内に挿入することなく、画像をsick(病名)に関連付けることができます。アイキャッチ画像をホームページでのsick(病名)サムネイルや、カスタムヘッダーなどに使用できるテーマを利用している場合には便利です。"
 
 #: includes/admin/topics.php:210
 msgid "<strong>Publish</strong> - You can set the terms of publishing your topic in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a topic or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a topic to be published in the future or backdate a topic."
-msgstr "<strong>公開</strong> -「公開」ボックスでトピック公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードでトピックを保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、トピックを後で公開するために予約したり、トピックの公開日付を昔のものにしたりできます。"
+msgstr "<strong>公開</strong> -「公開」ボックスでsick(病名)公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードでsick(病名)を保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、sick(病名)を後で公開するために予約したり、sick(病名)の公開日付を昔のものにしたりできます。"
 
 #: includes/admin/topics.php:207
 msgid "<strong>Topic Editor</strong> - Enter the text for your topic. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your topic text. You can insert media files by clicking the icons above the topic editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular topic editor."
-msgstr "<strong>トピックエディター</strong> - トピックのテキストを入力してください。編集には「ビジュアル」と「HTML」という2つのモードがありますので、タブをクリックして選択します。ビジュアルモードでは WYSIWYG エディターが使えます。列の最後にあるアイコンをクリックすると、操作用アイコンの2列目が表示されます。HTML モードを使うと、トピックのテキストとともに HTML を記入できます。トピックエディターの上にあるアイコンをクリックして手順に従うことにより、メディアファイルを挿入できます。全画面表示アイコン (上の列の最後から2つ目) で集中執筆用画面に移動できます。この画面でボタンを表示するには、上部エリアにマウスオーバーします。通常のトピックエディターに戻るには全画面表示を退出してください。"
+msgstr "<strong>sick(病名)エディター</strong> - sick(病名)のテキストを入力してください。編集には「ビジュアル」と「HTML」という2つのモードがありますので、タブをクリックして選択します。ビジュアルモードでは WYSIWYG エディターが使えます。列の最後にあるアイコンをクリックすると、操作用アイコンの2列目が表示されます。HTML モードを使うと、sick(病名)のテキストとともに HTML を記入できます。sick(病名)エディターの上にあるアイコンをクリックして手順に従うことにより、メディアファイルを挿入できます。全画面表示アイコン (上の列の最後から2つ目) で集中執筆用画面に移動できます。この画面でボタンを表示するには、上部エリアにマウスオーバーします。通常のsick(病名)エディターに戻るには全画面表示を退出してください。"
 
 #: includes/admin/topics.php:206
 msgid "<strong>Title</strong> - Enter a title for your topic. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
-msgstr "<strong>タイトル</strong> - トピックのタイトルを入力してください。入力後、編集できるパーマリンクがすぐ下に表示されます。"
+msgstr "<strong>タイトル</strong> - sick(病名)のタイトルを入力してください。入力後、編集できるパーマリンクがすぐ下に表示されます。"
 
 #: includes/admin/topics.php:204
 msgid "Title and Topic Editor"
-msgstr "タイトル・トピックエディター"
+msgstr "タイトル・sick(病名)エディター"
 
 #: includes/admin/topics.php:194
 msgid "The title field and the big topic editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "タイトルフィールドと大きなトピック編集エリアは所定の位置に固定されていますが、他のボックスはドラッグアンドドロップして位置を変更できます。また、各ボックスのタイトルバーをクリックすることで、縮小したり展開したりできます。さらに、表示オプションから非表示のボックス（抜粋、トラックバック送信、カスタムフィールド、ディスカッション、スラッグ、作成者）を表示させたり表示列のレイアウトを選択できます。"
+msgstr "タイトルフィールドと大きなsick(病名)編集エリアは所定の位置に固定されていますが、他のボックスはドラッグアンドドロップして位置を変更できます。また、各ボックスのタイトルバーをクリックすることで、縮小したり展開したりできます。さらに、表示オプションから非表示のボックス（抜粋、トラックバック送信、カスタムフィールド、ディスカッション、スラッグ、作成者）を表示させたり表示列のレイアウトを選択できます。"
 
 #: includes/admin/topics.php:173
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected topics at once. To remove a topic from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "「一括操作」を使うと、選択したトピックすべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループからトピックを除くには、「一括操作」エリアに表示されるタイトル横の x マークをクリックしてください。"
+msgstr "「一括操作」を使うと、選択したsick(病名)すべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループからsick(病名)を除くには、「一括操作」エリアに表示されるタイトル横の x マークをクリックしてください。"
 
 #: includes/admin/topics.php:172
 msgid "You can also edit or move multiple topics to the trash at once. Select the topics you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
-msgstr "一度に複数のトピックを編集したりゴミ箱に移動したりできます。操作したいトピックをチェックボックスで選択し、「一括操作」で行いたい操作を選んで、「適用」をクリックしてください。"
+msgstr "一度に複数のsick(病名)を編集したりゴミ箱に移動したりできます。操作したいsick(病名)をチェックボックスで選択し、「一括操作」で行いたい操作を選んで、「適用」をクリックしてください。"
 
 #: includes/admin/topics.php:163
 msgid "<strong>Stick <em>(to front)</em></strong> will keep the selected topic &#8217;pinned&#8217; to the top of ALL forums and be visable in any forums topics list."
-msgstr "<strong>フロントページ固定</strong>は選択したトピックをすべてのフォーラムの上部に「固定」し続け、どのフォーラムトピックリストからも見られるようにします。"
+msgstr "<strong>フロントページ固定</strong>は選択したsick(病名)をすべてのCategoryの上部に「固定」し続け、どのCategorysick(病名)リストからも見られるようにします。"
 
 #: includes/admin/topics.php:162
 msgid "<strong>Stick</strong> will keep the selected topic &#8217;pinned&#8217; to the top the parent forum topic list."
-msgstr "<strong>上部固定</strong>は選択したトピックを親フォーラムトピックリストの上部に「固定」し続けます。"
+msgstr "<strong>上部固定</strong>は選択したsick(病名)を親Categorysick(病名)リストの上部に「固定」し続けます。"
 
 #: includes/admin/topics.php:161
 msgid "<strong>Close</strong> will mark the selected topic as &#8217;closed&#8217; and disable the option to post new replies to the topic."
-msgstr "<strong>クローズ</strong>は選択したトピックを「クローズ」状態にし、新しい返信ができないようにします。"
+msgstr "<strong>クローズ</strong>は選択したsick(病名)を「クローズ」状態にし、新しい返信ができないようにします。"
 
 #: includes/admin/topics.php:160
 msgid "<strong>Preview</strong> will show you what your draft topic will look like if you publish it. View will take you to your live site to view the topic. Which link is available depends on your topic&#8217;s status."
-msgstr "<strong>プレビュー</strong>を使って、下書きのトピックを公開した場合どのように見えるかを確認できます。「表示」は公開サイトに移動してトピックを表示します。どちらのリンクが使えるかは、トピックのステータスによって決定されます。"
+msgstr "<strong>プレビュー</strong>を使って、下書きのsick(病名)を公開した場合どのように見えるかを確認できます。「表示」は公開サイトに移動してsick(病名)を表示します。どちらのリンクが使えるかは、sick(病名)のステータスによって決定されます。"
 
 #: includes/admin/topics.php:159
 msgid "<strong>Spam</strong> removes your topic from this list and places it in the spam queue, from which you can permanently delete it."
-msgstr "<strong>スパム</strong>はトピックをこのリストからスパムリストへ移動します。移動後、トピックを完全に削除することが可能です。"
+msgstr "<strong>スパム</strong>はsick(病名)をこのリストからスパムリストへ移動します。移動後、sick(病名)を完全に削除することが可能です。"
 
 #: includes/admin/topics.php:158
 msgid "<strong>Trash</strong> removes your topic from this list and places it in the trash, from which you can permanently delete it."
-msgstr "<strong>ゴミ箱</strong>はトピックをこのリストからゴミ箱へ移動します。移動後、トピックを完全に削除することが可能です。"
+msgstr "<strong>ゴミ箱</strong>はsick(病名)をこのリストからゴミ箱へ移動します。移動後、sick(病名)を完全に削除することが可能です。"
 
 #: includes/admin/topics.php:157
 msgid "<strong>Edit</strong> takes you to the editing screen for that topic. You can also reach that screen by clicking on the topic title."
-msgstr "<strong>編集</strong>をクリックするとそのトピックの編集画面に移動します。また、トピックタイトルをクリックしても同じ画面を表示できます。"
+msgstr "<strong>編集</strong>をクリックするとそのsick(病名)の編集画面に移動します。また、sick(病名)タイトルをクリックしても同じ画面を表示できます。"
 
 #: includes/admin/topics.php:155
 msgid "Hovering over a row in the topics list will display action links that allow you to manage your topic. You can perform the following actions:"
-msgstr "トピック一覧内の行にカーソルを乗せると、トピック管理用のリンクが表示されます。以下の操作を実行できます。"
+msgstr "sick(病名)一覧内の行にカーソルを乗せると、sick(病名)管理用のリンクが表示されます。以下の操作を実行できます。"
 
 #: includes/admin/topics.php:146
 msgid "You can refine the list to show only topics from a specific month by using the dropdown menus above the topics list. Click the Filter button after making your selection. You also can refine the list by clicking on the topic creator in the topics list."
-msgstr "トピックリストの上にあるドロップダウンメニューでリストを絞り込んで、特定の月のトピックのみを表示できます。選択肢を選んだらフィルターボタンをクリックしてください。また、トピックリストの作成者をクリックして絞り込むこともできます。"
+msgstr "sick(病名)リストの上にあるドロップダウンメニューでリストを絞り込んで、特定の月のsick(病名)のみを表示できます。選択肢を選んだらフィルターボタンをクリックしてください。また、sick(病名)リストの作成者をクリックして絞り込むこともできます。"
 
 #: includes/admin/topics.php:145
 msgid "You can filter the list of topics by topic status using the text links in the upper left to show All, Published, or Trashed topics. The default view is to show all topics."
-msgstr "トピックの状態によってトピック一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内のトピックへのテキストリンクを使ってください。デフォルトではすべてのトピックが表示されます。"
+msgstr "sick(病名)の状態によってsick(病名)一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内のsick(病名)へのテキストリンクを使ってください。デフォルトではすべてのsick(病名)が表示されます。"
 
 #: includes/admin/topics.php:144
 msgid "You can hide/display columns based on your needs and decide how many topics to list per screen using the Screen Options tab."
-msgstr "必要に応じてカラムを表示・非表示にしたり、表示オプションタブを使って画面に表示するトピックの数を指定したりできます。"
+msgstr "必要に応じてカラムを表示・非表示にしたり、表示オプションタブを使って画面に表示するsick(病名)の数を指定したりできます。"
 
 #: includes/admin/topics.php:134
 msgid "This screen displays the individual topics on your site. You can customize the display of this screen to suit your workflow."
-msgstr "この画面はサイト上の個別トピックを表示します。作業の流れに合うよう、この画面の表示をカスタマイズできます。"
+msgstr "この画面はサイト上の個別sick(病名)を表示します。作業の流れに合うよう、この画面の表示をカスタマイズできます。"
 
 #: includes/admin/tools.php:1370
 msgid "Deleting Roles and Capabilities&hellip; %s"
@@ -2576,7 +2577,7 @@ msgstr "ユーザーを削除中… %s"
 
 #: includes/admin/tools.php:1316
 msgid "Deleting Topic Tags&hellip; %s"
-msgstr "トピックタグを削除しています… %s"
+msgstr "sick(病名)タグを削除しています… %s"
 
 #: includes/admin/tools.php:1307
 msgid "Deleting Post Meta&hellip; %s"
@@ -2632,15 +2633,15 @@ msgstr "インポーター・ヘルパーのデータ"
 
 #: includes/admin/tools.php:1225
 msgid "Forum User Roles"
-msgstr "フォーラムユーザー権限グループ"
+msgstr "Categoryユーザー権限グループ"
 
 #: includes/admin/tools.php:1224
 msgid "Forum Activity"
-msgstr "フォーラムアクティビティ"
+msgstr "Categoryアクティビティ"
 
 #: includes/admin/tools.php:1223
 msgid "Forum Settings"
-msgstr "フォーラム設定"
+msgstr "Category設定"
 
 #: includes/admin/tools.php:1222
 msgid "Related Meta Data"
@@ -2648,7 +2649,7 @@ msgstr "関連メタデータ"
 
 #: includes/admin/tools.php:1221
 msgid "All Topic Tags"
-msgstr "トピックタグ一覧"
+msgstr "sick(病名)タグ一覧"
 
 #: includes/admin/tools.php:1220 includes/replies/functions.php:1994
 #: includes/replies/template.php:50
@@ -2658,11 +2659,11 @@ msgstr "返信一覧"
 #: includes/admin/tools.php:1219 includes/topics/functions.php:3439
 #: includes/topics/template.php:50
 msgid "All Topics"
-msgstr "トピック一覧"
+msgstr "sick(病名)一覧"
 
 #: includes/admin/tools.php:1218 includes/forums/template.php:50
 msgid "All Forums"
-msgstr "フォーラム一覧"
+msgstr "Category一覧"
 
 #: includes/admin/tools.php:1216
 msgid "The following data will be removed:"
@@ -2674,27 +2675,27 @@ msgstr "次へ進む前にデータベースをバックアップしてくださ
 
 #: includes/admin/tools.php:1209
 msgid "Revert your forums back to a brand new installation. This process cannot be undone."
-msgstr "フォーラムを初期状態に戻します。この処理を行うとやり直しはできません。"
+msgstr "Categoryを初期状態に戻します。この処理を行うとやり直しはできません。"
 
 #: includes/admin/tools.php:1100
 msgid "Recalculating the topic for each post &hellip; %s"
-msgstr "各投稿のトピックを再計算中... %s"
+msgstr "各投稿のsick(病名)を再計算中... %s"
 
 #: includes/admin/tools.php:1046
 msgid "Recalculating the forum for each post &hellip; %s"
-msgstr "各投稿のフォーラムを再計算中... %s"
+msgstr "各投稿のCategoryを再計算中... %s"
 
 #: includes/admin/tools.php:1022
 msgid "Recalculating forum visibility &hellip; %s"
-msgstr "フォーラムの表示状態を再計算中… %s"
+msgstr "Categoryの表示状態を再計算中… %s"
 
 #: includes/admin/tools.php:965
 msgid "Repairing the sticky topic to the parent forum relationships&hellip; %s"
-msgstr "上部固定トピックと親フォーラムの関係を修復中… %s"
+msgstr "上部固定sick(病名)と親Categoryの関係を修復中… %s"
 
 #: includes/admin/tools.php:859
 msgid "Recomputing latest post in every topic and forum&hellip; %s"
-msgstr "トピックとフォーラムごとの最新投稿を計算しています... %s"
+msgstr "sick(病名)とCategoryごとの最新投稿を計算しています... %s"
 
 #: includes/admin/tools.php:843
 msgid "Complete! %s users updated."
@@ -2706,11 +2707,11 @@ msgstr "このサイトのユーザーへ権限グループを再度マッピン
 
 #: includes/admin/tools.php:743
 msgid "Removing trashed forums from user subscriptions&hellip; %s"
-msgstr "ユーザーが購読しているゴミ箱内のフォーラムを削除中… %s"
+msgstr "ユーザーが購読しているゴミ箱内のCategoryを削除中… %s"
 
 #: includes/admin/tools.php:682
 msgid "Removing trashed topics from user subscriptions&hellip; %s"
-msgstr "ユーザーが購読中のトピックのうち、ゴミ箱へ移動されたトピックを削除しています… %s"
+msgstr "ユーザーが購読中のsick(病名)のうち、ゴミ箱へ移動されたsick(病名)を削除しています… %s"
 
 #: includes/admin/tools.php:650 includes/admin/tools.php:711
 #: includes/admin/tools.php:772
@@ -2719,27 +2720,27 @@ msgstr "削除するものがありません !"
 
 #: includes/admin/tools.php:620
 msgid "Removing trashed topics from user favorites&hellip; %s"
-msgstr "ユーザーのお気に入りのうち、ゴミ箱へ移動されたトピックを削除しています… %s"
+msgstr "ユーザーのお気に入りのうち、ゴミ箱へ移動されたsick(病名)を削除しています… %s"
 
 #: includes/admin/tools.php:575
 msgid "Counting the number of topics to which each user has replied&hellip; %s"
-msgstr "各ユーザーが返信したトピック数を計算しています... %s"
+msgstr "各ユーザーが返信したsick(病名)数を計算しています... %s"
 
 #: includes/admin/tools.php:530
 msgid "Counting the number of topics each user has created&hellip; %s"
-msgstr "各ユーザーが作成したトピック数を計算しています... %s"
+msgstr "各ユーザーが作成したsick(病名)数を計算しています... %s"
 
 #: includes/admin/tools.php:487
 msgid "Counting the number of replies in each forum&hellip; %s"
-msgstr "各フォーラムで回答数を計算中… %s"
+msgstr "各Categoryで回答数を計算中… %s"
 
 #: includes/admin/tools.php:453
 msgid "Counting the number of topics in each forum&hellip; %s"
-msgstr "各フォーラムのトピックの数を数える… %s"
+msgstr "各Categoryのsick(病名)の数を数える… %s"
 
 #: includes/admin/tools.php:434
 msgid "Complete! %s groups updated; %s forums updated; %s forum statuses synced."
-msgstr "完了しました。%s個のグループを更新、%s件のフォーラムを更新、%s件のフォーラムステータスを同期。"
+msgstr "完了しました。%s個のグループを更新、%s件のCategoryを更新、%s件のCategoryステータスを同期。"
 
 #: includes/admin/tools.php:418
 msgid "group-forums"
@@ -2747,19 +2748,19 @@ msgstr "group-forums"
 
 #: includes/admin/tools.php:417
 msgid "Group Forums"
-msgstr "グループのフォーラム"
+msgstr "グループのCategory"
 
 #: includes/admin/tools.php:316
 msgid "Repairing BuddyPress group-forum relationships&hellip; %s"
-msgstr "BuddyPress グループフォーラムの関係を修復しています... %s"
+msgstr "BuddyPress グループCategoryの関係を修復しています... %s"
 
 #: includes/admin/tools.php:291
 msgid "Counting the number of spammed and trashed replies in each topic&hellip; %s"
-msgstr "各トピックのスパムとゴミ箱へ移動された返信の合計数を計算中… %s"
+msgstr "各sick(病名)のスパムとゴミ箱へ移動された返信の合計数を計算中… %s"
 
 #: includes/admin/tools.php:249
 msgid "Counting the number of voices in each topic&hellip; %s"
-msgstr "各トピックの参加者を計算中… %s"
+msgstr "各sick(病名)の参加者を計算中… %s"
 
 #: includes/admin/tools.php:233 includes/admin/tools.php:276
 #: includes/admin/tools.php:302 includes/admin/tools.php:469
@@ -2786,23 +2787,23 @@ msgstr "問題があるようです。"
 
 #: includes/admin/tools.php:198
 msgid "Counting the number of replies in each topic&hellip; %s"
-msgstr "各トピックの返信数を計算中… %s"
+msgstr "各sick(病名)の返信数を計算中… %s"
 
 #: includes/admin/tools.php:178
 msgid "Remap existing users to default forum roles"
-msgstr "既存のユーザーをデフォルトフォーラム権限グループに再度マッピング"
+msgstr "既存のユーザーをデフォルトCategory権限グループに再度マッピング"
 
 #: includes/admin/tools.php:177
 msgid "Remove trashed forums from user subscriptions"
-msgstr "ユーザーが購読しているゴミ箱内のフォーラムを削除"
+msgstr "ユーザーが購読しているゴミ箱内のCategoryを削除"
 
 #: includes/admin/tools.php:176
 msgid "Remove trashed topics from user subscriptions"
-msgstr "ユーザーが購読中のトピックのうち、ゴミ箱へ移動されたトピックを削除"
+msgstr "ユーザーが購読中のsick(病名)のうち、ゴミ箱へ移動されたsick(病名)を削除"
 
 #: includes/admin/tools.php:175
 msgid "Remove trashed topics from user favorites"
-msgstr "ユーザーのお気に入りのうち、ゴミ箱へ移動されたトピックを削除"
+msgstr "ユーザーのお気に入りのうち、ゴミ箱へ移動されたsick(病名)を削除"
 
 #: includes/admin/tools.php:174
 msgid "Count replies for each user"
@@ -2810,51 +2811,51 @@ msgstr "各ユーザーの返信を再計算"
 
 #: includes/admin/tools.php:173
 msgid "Count topics for each user"
-msgstr "各ユーザーのトピックを再計算"
+msgstr "各ユーザーのsick(病名)を再計算"
 
 #: includes/admin/tools.php:172
 msgid "Count spammed & trashed replies in each topic"
-msgstr "各フォーラム内のスパム・ゴミ箱内の返信を再計算"
+msgstr "各Categoryのスパム・ゴミ箱内の返信を再計算"
 
 #: includes/admin/tools.php:171
 msgid "Count voices in each topic"
-msgstr "各トピックの参加者を数える"
+msgstr "各sick(病名)の参加者を数える"
 
 #: includes/admin/tools.php:170
 msgid "Count replies in each topic"
-msgstr "各トピック内の返信を再計算"
+msgstr "各sick(病名)内の返信を再計算"
 
 #: includes/admin/tools.php:169
 msgid "Count replies in each forum"
-msgstr "各フォーラム内の返信を再計算"
+msgstr "各Categoryの返信を再計算"
 
 #: includes/admin/tools.php:168
 msgid "Count topics in each forum"
-msgstr "各フォーラムのトピックを再計算"
+msgstr "各Categoryのsick(病名)を再計算"
 
 #: includes/admin/tools.php:167
 msgid "Repair BuddyPress Group Forum relationships"
-msgstr "BuddyPress グループフォーラム連携を修復"
+msgstr "BuddyPress グループCategory連携を修復"
 
 #: includes/admin/tools.php:165
 msgid "Recalculate the sticky relationship of each topic"
-msgstr "各トピックの上部固定表示関係を再計算"
+msgstr "各sick(病名)の上部固定表示関係を再計算"
 
 #: includes/admin/tools.php:164
 msgid "Recalculate last activity in each topic and forum"
-msgstr "各トピックとフォーラムで最後の活動を再計算"
+msgstr "各sick(病名)とCategoryで最後の活動を再計算"
 
 #: includes/admin/tools.php:163
 msgid "Recalculate private and hidden forums"
-msgstr "非公開および非表示のフォーラムを再計算"
+msgstr "非公開および非表示のCategoryを再計算"
 
 #: includes/admin/tools.php:162
 msgid "Recalculate the parent forum for each post"
-msgstr "各投稿の親フォーラムを再計算"
+msgstr "各投稿の親Categoryを再計算"
 
 #: includes/admin/tools.php:161
 msgid "Recalculate the parent topic for each post"
-msgstr "各投稿の親トピックを再計算"
+msgstr "各投稿の親sick(病名)を再計算"
 
 #: includes/admin/tools.php:61
 msgid "Repair Items"
@@ -2874,7 +2875,7 @@ msgstr "これらのツールの中には、かなりのデータベースのオ
 
 #: includes/admin/tools.php:36
 msgid "bbPress keeps track of relationships between forums, topics, replies, and topic tags, and users. Occasionally these relationships become out of sync, most often after an import or migration. Use the tools below to manually recalculate these relationships."
-msgstr "bbPressはフォーラム・トピック・返信・トピックタグ・ユーザー間の関係を記録します。時に、これらの関係の同期が取れなくなることがあります。問題が起こるのはほとんどの場合、インポートまたはサイトを引越しした後です。手動で関係を再計算するには以下のツールを使用してください。"
+msgstr "bbPressはCategory・sick(病名)・返信・sick(病名)タグ・ユーザー間の関係を記録します。時に、これらの関係の同期が取れなくなることがあります。問題が起こるのはほとんどの場合、インポートまたはサイトを引越しした後です。手動で関係を再計算するには以下のツールを使用してください。"
 
 #: includes/admin/settings.php:1755
 msgid "Possible %1$s conflict: %2$s"
@@ -2886,7 +2887,7 @@ msgstr "%s ページ"
 
 #: includes/admin/settings.php:1724
 msgid "Topic tag slug"
-msgstr "トピックタグスラッグ"
+msgstr "sick(病名)タグスラッグ"
 
 #: includes/admin/settings.php:1721
 msgid "View base"
@@ -2902,19 +2903,19 @@ msgstr "返信スラッグ"
 
 #: includes/admin/settings.php:1712
 msgid "Topic slug"
-msgstr "トピックスラッグ"
+msgstr "sick(病名)スラッグ"
 
 #: includes/admin/settings.php:1709
 msgid "Forum slug"
-msgstr "フォーラムスラッグ"
+msgstr "Categoryスラッグ"
 
 #: includes/admin/settings.php:1706
 msgid "Topics base"
-msgstr "トピックベース"
+msgstr "sick(病名)ベース"
 
 #: includes/admin/settings.php:1703
 msgid "Forums base"
-msgstr "フォーラムベース"
+msgstr "Categoryベース"
 
 #: includes/admin/settings.php:1698
 msgid "Category base"
@@ -2950,15 +2951,15 @@ msgstr "WordPress または BuddyPress とのスラッグ衝突が発生した�
 
 #: includes/admin/settings.php:1589
 msgid "\"Single Slugs\" are used as a prefix when viewing an individual forum, topic, reply, user, or view."
-msgstr "「シングルスラッグ」は個別フォーラム、トピック、返信、ユーザー、あるいはビューを表示する際の接頭辞として使われます。"
+msgstr "「シングルスラッグ」は個別Category、sick(病名)、返信、ユーザー、あるいはビューを表示する際の接頭辞として使われます。"
 
 #: includes/admin/settings.php:1588
 msgid "\"Archive Slugs\" are used as the \"root\" for your forums and topics. If you combine these values with existing page slugs, bbPress will attempt to output the most correct title and content."
-msgstr "「アーカイブスラッグ」はフォーラムやトピックの「ルート」として使われます。bbPress はこれらの値を既存のスラッグと合わせ、最も適切なタイトルとコンテンツを出力しようと試みます。"
+msgstr "「アーカイブスラッグ」はCategoryやsick(病名)の「ルート」として使われます。bbPress はこれらの値を既存のスラッグと合わせ、最も適切なタイトルとコンテンツを出力しようと試みます。"
 
 #: includes/admin/settings.php:1587
 msgid "The Slugs section allows you to control the permalink structure for your forums."
-msgstr "スラッグセクションを使って、フォーラムのパーマリンク構造をコントロールできます。"
+msgstr "スラッグセクションを使って、Categoryのパーマリンク構造をコントロールできます。"
 
 #: includes/admin/settings.php:1586
 msgid "Slugs"
@@ -2974,7 +2975,7 @@ msgstr "これは、ブログのページおよびフィードに表示される
 
 #: includes/admin/settings.php:1578
 msgid "Per Page settings allow you to control the number of topics and replies appear on each page."
-msgstr "ページごとの設定で、各ページに表示するトピックや返信の数をコントロールできます。"
+msgstr "ページごとの設定で、各ページに表示するsick(病名)や返信の数をコントロールできます。"
 
 #: includes/admin/settings.php:1577
 msgid "Per Page"
@@ -2994,23 +2995,23 @@ msgstr "高機能エディターによって、伝統的 WordPress ダッシュ�
 
 #: includes/admin/settings.php:1566
 msgid "\"Anonymous Posting\" allows guest users who do not have accounts on your site to both create topics as well as replies."
-msgstr "「匿名投稿」は、サイトのアカウントを持たないユーザーもトピック作成や返信ができるようにします。"
+msgstr "「匿名投稿」は、サイトのアカウントを持たないユーザーもsick(病名)作成や返信ができるようにします。"
 
 #: includes/admin/settings.php:1565
 msgid "Topic-Tags allow users to filter topics between forums. This is enabled by default."
-msgstr "トピック-タグ機能を利用すると、ユーザーがフォーラム間でトピックを絞込できるようになります。デフォルトでは有効化されています。"
+msgstr "sick(病名)-タグ機能を利用すると、ユーザーがCategory間でsick(病名)を絞込できるようになります。デフォルトでは有効化されています。"
 
 #: includes/admin/settings.php:1564
 msgid "Subscriptions allow users to subscribe for notifications to topics that interest them. This is enabled by default."
-msgstr "購読機能を利用すると、ユーザーが興味のあるトピックの通知を購読できるようになります。デフォルトでは有効化されています。"
+msgstr "購読機能を利用すると、ユーザーが興味のあるsick(病名)の通知を購読できるようになります。デフォルトでは有効化されています。"
 
 #: includes/admin/settings.php:1563
 msgid "Favorites are a way for users to save and later return to topics they favor. This is enabled by default."
-msgstr "「お気に入り」は、ユーザーが後からトピックを参照しやすくするための機能です。デフォルトで有効化されています。"
+msgstr "「お気に入り」は、ユーザーが後からsick(病名)を参照しやすくするための機能です。デフォルトで有効化されています。"
 
 #: includes/admin/settings.php:1562
 msgid "\"Throttle time\" is the amount of time required between posts from a single author. The higher the throttle time, the longer a user will need to wait between posting to the forum."
-msgstr "「スロットル時間」は同一投稿者からの投稿の間隔として必要な時間です。この時間が長いほど、ユーザーがフォーラムに連続投稿する前により長く待つ必要があります。"
+msgstr "「スロットル時間」は同一投稿者からの投稿の間隔として必要な時間です。この時間が長いほど、ユーザーがCategoryに連続投稿する前により長く待つ必要があります。"
 
 #: includes/admin/settings.php:1561
 msgid "You can choose to lock a post after a certain number of minutes. \"Locking post editing\" will prevent the author from editing some amount of time after saving a post."
@@ -3030,7 +3031,7 @@ msgstr "各セクションの詳細については、追加ヘルプタブの情
 
 #: includes/admin/settings.php:1550
 msgid "This screen provides access to all of the Forums settings."
-msgstr "この画面からすべてのフォーラム設定へアクセスできます。"
+msgstr "この画面からすべてのCategory設定へアクセスできます。"
 
 #: includes/admin/settings.php:1519
 msgid "Stop"
@@ -3046,7 +3047,7 @@ msgstr "bbPress 以外のパスワードは自動変換できません。各ユ�
 
 #: includes/admin/settings.php:1487
 msgid "Attempt to import user accounts from previous forums"
-msgstr "前のフォーラムからユーザーアカウントのインポートを試みる"
+msgstr "前のCategoryからユーザーアカウントのインポートを試みる"
 
 #: includes/admin/settings.php:1473
 msgid "Use this if an import failed and you want to remove that incomplete data."
@@ -3062,7 +3063,7 @@ msgstr "最初からやり直す前に古い変換情報をクリアすること
 
 #: includes/admin/settings.php:1457
 msgid "Start a fresh conversion from the beginning"
-msgstr "一から新しいトピックを開始"
+msgstr "一から新しいsick(病名)を開始"
 
 #: includes/admin/settings.php:1443
 msgid "Keep this high to prevent too-many-connection issues."
@@ -3082,7 +3083,7 @@ msgstr "行を一括処理"
 
 #: includes/admin/settings.php:1413
 msgid "(If converting from BuddyPress Forums, use \"wp_bb_\" or your custom prefix)"
-msgstr "(BuddyPress フォーラムを変換する場合、\"wp_bb_\" またはカスタム接頭辞を使ってください)"
+msgstr "(BuddyPress Categoryを変換する場合、\"wp_bb_\" またはカスタム接頭辞を使ってください)"
 
 #: includes/admin/settings.php:1399
 msgid "Some optional parameters to help tune the conversion process."
@@ -3090,7 +3091,7 @@ msgstr "変換処理の調整を手助けするオプション変数。"
 
 #: includes/admin/settings.php:1386
 msgid "Name of the database with your old forum data"
-msgstr "旧フォーラムデータが含まれたデータベース名"
+msgstr "旧Categoryデータが含まれたデータベース名"
 
 #: includes/admin/settings.php:1372
 msgid "Password to access the database"
@@ -3110,11 +3111,11 @@ msgstr "IP アドレスまたはホスト名"
 
 #: includes/admin/settings.php:1316
 msgid "is the previous forum software"
-msgstr ": 以前のフォーラムソフトウェア"
+msgstr ": 以前のCategoryソフトウェア"
 
 #: includes/admin/settings.php:1286
 msgid "Information about your previous forums database so that they can be converted. <strong>Backup your database before proceeding.</strong>"
-msgstr "変換のために必要な、以前のフォーラムデータベースに関する情報。<strong>次へ進む前にデータベースをバックアップしてください。</strong>"
+msgstr "変換のために必要な、以前のCategoryデータベースに関する情報。<strong>次へ進む前にデータベースをバックアップしてください。</strong>"
 
 #: includes/admin/settings.php:1267
 #: templates/default/bbpress/form-user-edit.php:173
@@ -3123,39 +3124,39 @@ msgstr "変更を保存"
 
 #: includes/admin/settings.php:1258
 msgid "Forums Settings"
-msgstr "フォーラム設定"
+msgstr "Category設定"
 
 #: includes/admin/settings.php:1235
 msgid "Allow Akismet to actively prevent forum spam."
-msgstr "Akismet によるフォーラムのスパム防止を許可する。"
+msgstr "Akismet によるCategoryのスパム防止を許可する。"
 
 #: includes/admin/settings.php:1218
 msgid "Forum settings for Akismet"
-msgstr "フォーラム用の Akismet 設定"
+msgstr "Category用の Akismet 設定"
 
 #: includes/admin/settings.php:1203
 msgid "Using the Forum Root is not recommended. Changing this does not move existing forums."
-msgstr "フォーラムルートの使用は推奨されていません。これを変更しても既存のフォーラムは移動されません。"
+msgstr "Categoryルートの使用は推奨されていません。これを変更しても既存のCategoryは移動されません。"
 
 #: includes/admin/settings.php:1202
 msgid "is the parent for all group forums"
-msgstr ": すべてのグループフォーラムの親"
+msgstr ": すべてのグループCategoryの親"
 
 #: includes/admin/settings.php:1194
 msgid "&mdash; Forum root &mdash;"
-msgstr " &mdash; フォーラムのルート &mdash;"
+msgstr " &mdash; Categoryのルート &mdash;"
 
 #: includes/admin/settings.php:1177
 msgid "Allow BuddyPress Groups to have their own forums"
-msgstr "BuddyPress グループによる独自フォーラムの作成を許可する"
+msgstr "BuddyPress グループによる独自Categoryの作成を許可する"
 
 #: includes/admin/settings.php:1161
 msgid "Forum settings for BuddyPress"
-msgstr "フォーラム用の BuddyPress 設定"
+msgstr "Category用の BuddyPress 設定"
 
 #: includes/admin/settings.php:1043
 msgid "Custom slugs for single forums, topics, replies, tags, views, and search."
-msgstr "個別フォーラム、トピック、返信、タグ、ビュー、検索用のカスタムスラッグ。"
+msgstr "個別Category、sick(病名)、返信、タグ、ビュー、検索用のカスタムスラッグ。"
 
 #: includes/admin/settings.php:943
 msgid "Customize your user profile slugs."
@@ -3163,19 +3164,19 @@ msgstr "ユーザープロフィールスラッグのカスタマイズ。"
 
 #: includes/admin/settings.php:916
 msgid "Topics by Freshness"
-msgstr "新着順トピック"
+msgstr "新着順sick(病名)"
 
 #: includes/admin/settings.php:913
 msgid "Forum Index"
-msgstr "フォーラムインデックス"
+msgstr "Categoryインデックス"
 
 #: includes/admin/settings.php:893
 msgid "Prefix all forum content with the Forum Root slug (Recommended)"
-msgstr "フォーラムのコンテンツすべての先頭にフォーラムルートスラッグを追加する (推奨)"
+msgstr "Categoryのコンテンツすべての先頭にCategoryルートスラッグを追加する (推奨)"
 
 #: includes/admin/settings.php:860
 msgid "Customize your Forums root. Partner with a WordPress Page and use Shortcodes for more flexibility."
-msgstr "フォーラムルートをカスタマイズできます。WordPress 固定ページと連携し、柔軟性を高めるためにショートコードを使えます。"
+msgstr "Categoryルートをカスタマイズできます。WordPress 固定ページと連携し、柔軟性を高めるためにショートコードを使えます。"
 
 #: includes/admin/settings.php:810
 msgid "How many topics and replies to show per RSS page"
@@ -3192,7 +3193,7 @@ msgstr "ページごとに表示する投稿または返信の数"
 
 #: includes/admin/settings.php:748
 msgid "Embed media (YouTube, Twitter, Flickr, etc...) directly into topics and replies"
-msgstr "メディア (YouTube / Twitter / Flickr など) をトピックや返信に直接埋め込む"
+msgstr "メディア (YouTube / Twitter / Flickr など) をsick(病名)や返信に直接埋め込む"
 
 #: includes/admin/settings.php:732
 msgid "No template packages available."
@@ -3208,7 +3209,7 @@ msgstr "%1$s - %2$s"
 
 #: includes/admin/settings.php:698
 msgid "How your forum content is displayed within your existing theme."
-msgstr "既存のテーマ内でフォーラムコンテンツがどのように表示されるか。"
+msgstr "既存のテーマ内でCategoryコンテンツがどのように表示されるか。"
 
 #: includes/admin/settings.php:685
 msgid "Add toolbar & buttons to textareas to help with HTML formatting"
@@ -3216,7 +3217,7 @@ msgstr "HTML 整形補助ツールバー・ボタンをテキストエリアに�
 
 #: includes/admin/settings.php:669
 msgid "Allow topic and reply revision logging"
-msgstr "トピックおよび返信履歴ログを許可する"
+msgstr "sick(病名)および返信履歴ログを許可する"
 
 #: includes/admin/settings.php:652
 msgid "Enable threaded (nested) replies %s levels deep"
@@ -3224,31 +3225,31 @@ msgstr "返信を%s階層までのスレッド (入れ子) 形式にする"
 
 #: includes/admin/settings.php:613
 msgid "Allow forum wide search"
-msgstr "フォーラム全体の検索を許可する"
+msgstr "Category全体の検索を許可する"
 
 #: includes/admin/settings.php:597
 msgid "Allow topics to have tags"
-msgstr "トピックにタグを追加できるようにする"
+msgstr "sick(病名)にタグを追加できるようにする"
 
 #: includes/admin/settings.php:581
 msgid "Allow users to subscribe to forums and topics"
-msgstr "ユーザーがフォーラムとトピックを購読できるようにする"
+msgstr "ユーザーがCategoryとsick(病名)を購読できるようにする"
 
 #: includes/admin/settings.php:565
 msgid "Allow users to mark topics as favorites"
-msgstr "ユーザーがトピックをお気に入りに追加できるようにする"
+msgstr "ユーザーがsick(病名)をお気に入りに追加できるようにする"
 
 #: includes/admin/settings.php:549
 msgid "Forum features that can be toggled on and off"
-msgstr "有効化・無効化の切り替えができるフォーラム機能"
+msgstr "有効化・無効化の切り替えができるCategory機能"
 
 #: includes/admin/settings.php:533
 msgid "Automatically give registered visitors the %s forum role"
-msgstr "登録済みの訪問者にフォーラムの役割「%s」を自動的に付与する"
+msgstr "登録済みの訪問者にCategoryの役割「%s」を自動的に付与する"
 
 #: includes/admin/settings.php:499
 msgid "Allow guest users without accounts to create topics and replies"
-msgstr "アカウントを持たないゲストユーザーによるトピックの作成や返信を許可する"
+msgstr "アカウントを持たないゲストユーザーによるsick(病名)の作成や返信を許可する"
 
 #: includes/admin/settings.php:483 includes/common/functions.php:124
 msgid "seconds"
@@ -3268,19 +3269,19 @@ msgstr "Akismet を使用"
 
 #: includes/admin/settings.php:399
 msgid "Group Forums Parent"
-msgstr "グループフォーラムの親フォーラム"
+msgstr "グループCategoryの親Category"
 
 #: includes/admin/settings.php:391
 msgid "Enable Group Forums"
-msgstr "グループフォーラムを有効化"
+msgstr "グループCategoryを有効化"
 
 #: includes/admin/settings.php:378
 msgid "Topic Subscriptions"
-msgstr "購読トピック"
+msgstr "購読sick(病名)"
 
 #: includes/admin/settings.php:370 includes/extend/buddypress/loader.php:285
 msgid "Favorite Topics"
-msgstr "お気に入りのトピック"
+msgstr "お気に入りのsick(病名)"
 
 #: includes/admin/settings.php:362 includes/extend/buddypress/loader.php:207
 #: includes/extend/buddypress/loader.php:277
@@ -3292,7 +3293,7 @@ msgstr "返信リスト"
 #: includes/extend/buddypress/loader.php:269
 #: templates/default/bbpress/user-details.php:35
 msgid "Topics Started"
-msgstr "開始したトピック"
+msgstr "開始したsick(病名)"
 
 #: includes/admin/settings.php:346
 msgid "User Base"
@@ -3300,19 +3301,19 @@ msgstr "ユーザーベース"
 
 #: includes/admin/settings.php:317
 msgid "Topic View"
-msgstr "トピック表示"
+msgstr "sick(病名)表示"
 
 #: includes/admin/settings.php:280
 msgid "Forum root should show"
-msgstr "フォーラムルートで表示:"
+msgstr "Categoryルートで表示:"
 
 #: includes/admin/settings.php:272
 msgid "Forum Prefix"
-msgstr "フォーラム接頭辞"
+msgstr "Category接頭辞"
 
 #: includes/admin/settings.php:264
 msgid "Forum Root"
-msgstr "フォーラムルート"
+msgstr "Categoryルート"
 
 #: includes/admin/settings.php:209
 msgid "Current Package"
@@ -3338,7 +3339,7 @@ msgstr "検索"
 
 #: includes/admin/settings.php:158
 msgid "Topic tags"
-msgstr "トピックタグ"
+msgstr "sick(病名)タグ"
 
 #: includes/admin/settings.php:150 includes/extend/buddypress/loader.php:230
 #: templates/default/bbpress/user-details.php:58
@@ -3380,47 +3381,47 @@ msgstr "BuddyPress 連携"
 
 #: includes/admin/settings.php:59
 msgid "Forum User Slugs"
-msgstr "フォーラムユーザースラッグ"
+msgstr "Categoryユーザースラッグ"
 
 #: includes/admin/settings.php:54
 msgid "Single Forum Slugs"
-msgstr "個別フォーラムのスラッグ"
+msgstr "個別Categoryのスラッグ"
 
 #: includes/admin/settings.php:49
 msgid "Forum Root Slug"
-msgstr "フォーラムルートのスラッグ"
+msgstr "Categoryルートのスラッグ"
 
 #: includes/admin/settings.php:44
 msgid "Topics and Replies Per RSS Page"
-msgstr "RSS ページごとのトピック・返信数"
+msgstr "RSS ページごとのsick(病名)・返信数"
 
 #: includes/admin/settings.php:39
 msgid "Topics and Replies Per Page"
-msgstr "1ページに表示するトピック・返信数"
+msgstr "1ページに表示するsick(病名)・返信数"
 
 #: includes/admin/settings.php:34
 msgid "Forum Theme Packages"
-msgstr "フォーラムテーマパッケージ"
+msgstr "Categoryテーマパッケージ"
 
 #: includes/admin/settings.php:29
 msgid "Forum Features"
-msgstr "フォーラム機能"
+msgstr "Category機能"
 
 #: includes/admin/settings.php:24
 msgid "Forum User Settings"
-msgstr "フォーラムユーザー設定"
+msgstr "Categoryユーザー設定"
 
 #: includes/admin/replies.php:883
 msgid "Reply draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
-msgstr "返信の下書きを更新しました。<a target=\"_blank\" href=\"%s\">トピックをプレビュー</a>"
+msgstr "返信の下書きを更新しました。<a target=\"_blank\" href=\"%s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/replies.php:876
 msgid "Reply scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview topic</a>"
-msgstr "<strong>%1$s</strong> への返信を予約投稿しました。<a target=\"_blank\" href=\"%s\">トピックをプレビュー</a>"
+msgstr "<strong>%1$s</strong> への返信を予約投稿しました。<a target=\"_blank\" href=\"%s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/replies.php:873
 msgid "Reply submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
-msgstr "返信を投稿しました。<a target=\"_blank\" href=\"%s\">トピックをプレビュー</a>"
+msgstr "返信を投稿しました。<a target=\"_blank\" href=\"%s\">sick(病名)をプレビュー</a>"
 
 #: includes/admin/replies.php:870
 msgid "Reply saved."
@@ -3428,7 +3429,7 @@ msgstr "返信を保存しました。"
 
 #: includes/admin/replies.php:867
 msgid "Reply created. <a href=\"%s\">View topic</a>"
-msgstr "返信を投稿しました。<a href=\"%s\">トピックを表示</a>"
+msgstr "返信を投稿しました。<a href=\"%s\">sick(病名)を表示</a>"
 
 #. translators: %s: date and time of the revision
 #: includes/admin/replies.php:863
@@ -3441,11 +3442,11 @@ msgstr "返信を更新しました。"
 
 #: includes/admin/replies.php:849
 msgid "Reply updated. <a href=\"%s\">View topic</a>"
-msgstr "返信を更新しました。<a href=\"%s\">トピックを表示</a>"
+msgstr "返信を更新しました。<a href=\"%s\">sick(病名)を表示</a>"
 
 #: includes/admin/replies.php:789 includes/admin/topics.php:859
 msgid "In all forums"
-msgstr "すべてのフォーラム中"
+msgstr "すべてのCategory中"
 
 #: includes/admin/replies.php:779 includes/admin/topics.php:849
 msgid "Empty Spam"
@@ -3512,11 +3513,11 @@ msgstr "(不一致)"
 #: includes/admin/replies.php:651 includes/admin/replies.php:666
 #: includes/admin/topics.php:687
 msgid "No Forum"
-msgstr "フォーラムなし"
+msgstr "Categoryなし"
 
 #: includes/admin/replies.php:625 includes/admin/replies.php:633
 msgid "No Topic"
-msgstr "トピックなし"
+msgstr "sick(病名)なし"
 
 #: includes/admin/replies.php:572 includes/admin/topics.php:636
 #: templates/default/bbpress/loop-replies.php:18
@@ -3565,11 +3566,11 @@ msgstr "「<strong>返信先</strong>」は返信するスレッドを決定し�
 
 #: includes/admin/replies.php:222
 msgid "<strong>Topic</strong> determines the parent topic that the reply belongs to."
-msgstr "<strong>トピック</strong>は返信が属する親トピックを決定します。"
+msgstr "<strong>sick(病名)</strong>は返信が属する親sick(病名)を決定します。"
 
 #: includes/admin/replies.php:221
 msgid "<strong>Forum</strong> dropdown determines the parent forum that the reply belongs to. Select the forum, or leave the default (Use Forum of Topic) to post the reply in forum of the topic."
-msgstr "<strong>フォーラム</strong>ドロップダウンは返信が属する親フォーラムを決定します。フォーラムを選択するか、トピックのフォーラムに返信するにはデフォルト (トピックのフォーラムを使用) のままにしてください。"
+msgstr "<strong>Category</strong>ドロップダウンは返信が属する親Categoryを決定します。Categoryを選択するか、sick(病名)のCategoryに返信するにはデフォルト (sick(病名)のCategoryを使用) のままにしてください。"
 
 #: includes/admin/replies.php:219
 msgid "Select the attributes that your reply should have:"
@@ -3585,7 +3586,7 @@ msgstr "<strong>アイキャッチ画像</strong> - 返信内に挿入するこ�
 
 #: includes/admin/replies.php:209
 msgid "<strong>Publish</strong> - You can set the terms of publishing your reply in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a reply or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a reply to be published in the future or backdate a reply."
-msgstr "<strong>公開</strong> -「公開」ボックスでフォーラム公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードで返信を保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、返信を後で公開するために予約したり、返信の公開日付を昔のものにしたりできます。"
+msgstr "<strong>公開</strong> -「公開」ボックスでCategory公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードで返信を保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、返信を後で公開するために予約したり、返信の公開日付を昔のものにしたりできます。"
 
 #: includes/admin/replies.php:206
 msgid "<strong>Reply Editor</strong> - Enter the text for your reply. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your reply text. You can insert media files by clicking the icons above the reply editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular reply editor."
@@ -3641,7 +3642,7 @@ msgstr "返信をシンプルなタイトル一覧または概要を含めた状
 
 #: includes/admin/replies.php:145
 msgid "You can filter the list of replies by reply status using the text links in the upper left to show All, Published, Draft, or Trashed replies. The default view is to show all replies."
-msgstr "トピックの状態によって返信一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内の返信へのテキストリンクを使ってください。デフォルトではすべての返信が表示されます。"
+msgstr "sick(病名)の状態によって返信一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内の返信へのテキストリンクを使ってください。デフォルトではすべての返信が表示されます。"
 
 #: includes/admin/replies.php:144
 msgid "You can hide/display columns based on your needs and decide how many replies to list per screen using the Screen Options tab."
@@ -3708,25 +3709,25 @@ msgstr "返信先:"
 
 #: includes/admin/metaboxes.php:457 includes/replies/template.php:61
 msgid "Topic:"
-msgstr "トピック:"
+msgstr "sick(病名):"
 
 #: includes/admin/metaboxes.php:379 includes/admin/metaboxes.php:433
 #: includes/extend/buddypress/groups.php:1042 includes/topics/template.php:61
 #: templates/default/bbpress/form-topic.php:114
 msgid "Forum:"
-msgstr "フォーラム:"
+msgstr "Category:"
 
 #: includes/admin/metaboxes.php:368
 msgid "Select whether to open or close the topic."
-msgstr "トピックをオープンするかクローズするかを選択してください。"
+msgstr "sick(病名)をオープンするかクローズするかを選択してください。"
 
 #: includes/admin/metaboxes.php:356
 msgid "Topic Type"
-msgstr "トピックの種類"
+msgstr "sick(病名)の種類"
 
 #: includes/admin/metaboxes.php:322
 msgid "Forum Order"
-msgstr "フォーラム表示順"
+msgstr "Category表示順"
 
 #: includes/admin/metaboxes.php:321
 msgid "Order:"
@@ -3739,7 +3740,7 @@ msgstr "&mdash; 親なし &mdash;"
 
 #: includes/admin/metaboxes.php:300
 msgid "Forum Parent"
-msgstr "親フォーラム"
+msgstr "親Category"
 
 #: includes/admin/metaboxes.php:299
 msgid "Parent:"
@@ -3768,7 +3769,7 @@ msgstr "<span class=\"b\">bbPress %s</span> をご利用中です。"
 #: includes/admin/metaboxes.php:198
 msgid "Empty Topic Tag"
 msgid_plural "Empty Topic Tags"
-msgstr[0] "トピックタグを空にする"
+msgstr[0] "sick(病名)タグを空にする"
 
 #: includes/admin/metaboxes.php:176
 msgid "Hidden Reply"
@@ -3778,7 +3779,7 @@ msgstr[0] "非表示の返信"
 #: includes/admin/metaboxes.php:154
 msgid "Hidden Topic"
 msgid_plural "Hidden Topics"
-msgstr[0] "非公開トピック"
+msgstr[0] "非公開sick(病名)"
 
 #: includes/admin/metaboxes.php:135
 msgid "User"
@@ -3793,7 +3794,7 @@ msgstr "ユーザー &amp; 承認"
 #: includes/topics/template.php:3367
 msgid "Topic Tag"
 msgid_plural "Topic Tags"
-msgstr[0] "トピックタグ"
+msgstr[0] "sick(病名)タグ"
 
 #: includes/admin/metaboxes.php:84 includes/admin/settings.php:325
 #: includes/replies/template.php:49 includes/replies/template.php:1621
@@ -3810,7 +3811,7 @@ msgstr[0] "返信"
 #: templates/default/bbpress/loop-topics.php:19
 msgid "Topic"
 msgid_plural "Topics"
-msgstr[0] "トピック"
+msgstr[0] "sick(病名)"
 
 #: includes/admin/metaboxes.php:42
 msgid "Discussion"
@@ -3818,7 +3819,7 @@ msgstr "ディスカッション"
 
 #: includes/admin/forums.php:563
 msgid "Forum draft updated. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
-msgstr "フォーラムの下書きを更新しました。<a target=\"_blank\" href=\"%s\">フォーラムをプレビュー</a>"
+msgstr "Categoryの下書きを更新しました。<a target=\"_blank\" href=\"%s\">Categoryをプレビュー</a>"
 
 #. translators: Publish box date format, see http://php.net/date
 #: includes/admin/forums.php:558 includes/admin/replies.php:878
@@ -3828,28 +3829,28 @@ msgstr "Y年n月j日G:i"
 
 #: includes/admin/forums.php:556
 msgid "Forum scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview forum</a>"
-msgstr "フォーラム「<strong>%1$s</strong>】を予約投稿しました。<a target=\"_blank\" href=\"%2$s\">フォーラムをプレビュー</a>"
+msgstr "Category「<strong>%1$s</strong>】を予約投稿しました。<a target=\"_blank\" href=\"%2$s\">Categoryをプレビュー</a>"
 
 #: includes/admin/forums.php:553
 msgid "Forum submitted. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
-msgstr "フォーラムを送信しました。<a target=\"_blank\" href=\"%s\">フォーラムをプレビュー</a>"
+msgstr "Categoryを送信しました。<a target=\"_blank\" href=\"%s\">Categoryをプレビュー</a>"
 
 #: includes/admin/forums.php:550
 msgid "Forum saved."
-msgstr "フォーラムを保存しました。"
+msgstr "Categoryを保存しました。"
 
 #: includes/admin/forums.php:547
 msgid "Forum created. <a href=\"%s\">View forum</a>"
-msgstr "フォーラムを作成しました。<a href=\"%s\">フォーラムを表示</a>"
+msgstr "Categoryを作成しました。<a href=\"%s\">Categoryを表示</a>"
 
 #. translators: %s: date and time of the revision
 #: includes/admin/forums.php:543
 msgid "Forum restored to revision from %s"
-msgstr "リビジョン %s からフォーラムを復元しました"
+msgstr "リビジョン %s からCategoryを復元しました"
 
 #: includes/admin/forums.php:538
 msgid "Forum updated."
-msgstr "フォーラムを更新しました。"
+msgstr "Categoryを更新しました。"
 
 #: includes/admin/forums.php:535 includes/admin/replies.php:855
 #: includes/admin/topics.php:925
@@ -3863,11 +3864,11 @@ msgstr "カスタムフィールドを更新しました。"
 
 #: includes/admin/forums.php:529
 msgid "Forum updated. <a href=\"%s\">View forum</a>"
-msgstr "フォーラムを更新しました。<a href=\"%s\">フォーラムを表示</a>"
+msgstr "Categoryを更新しました。<a href=\"%s\">Categoryを表示</a>"
 
 #: includes/admin/forums.php:463 includes/forums/template.php:601
 msgid "No Topics"
-msgstr "トピックがありません"
+msgstr "sick(病名)がありません"
 
 #: includes/admin/forums.php:414 includes/admin/topics.php:638
 #: templates/default/bbpress/loop-forums.php:22
@@ -3908,7 +3909,7 @@ msgstr "返信"
 #: templates/default/bbpress/content-statistics.php:27
 #: templates/default/bbpress/loop-forums.php:20
 msgid "Topics"
-msgstr "トピック"
+msgstr "sick(病名)"
 
 #: includes/admin/forums.php:409 includes/admin/metaboxes.php:50
 #: includes/admin/metaboxes.php:380 includes/admin/metaboxes.php:434
@@ -3917,7 +3918,7 @@ msgstr "トピック"
 #: includes/extend/buddypress/groups.php:53 includes/forums/template.php:49
 #: templates/default/bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr "フォーラム"
+msgstr "Category"
 
 #: includes/admin/forums.php:217 includes/admin/replies.php:229
 #: includes/admin/topics.php:229
@@ -3926,51 +3927,51 @@ msgstr "公開ボックス"
 
 #: includes/admin/forums.php:211
 msgid "<strong>Order</strong> allows you to order your forums numerically."
-msgstr "<strong>順序</strong>を使ってフォーラムを数値順に並べ替えることができます。"
+msgstr "<strong>順序</strong>を使ってCategoryを数値順に並べ替えることができます。"
 
 #: includes/admin/forums.php:210
 msgid "<strong>Parent</strong> dropdown determines the parent forum. Select the forum or category from the dropdown, or leave the default (No Parent) to create the forum at the root of your forums."
-msgstr "<strong>親</strong>ドロップダウンは親フォーラムを決定します。ドロップダウンからフォーラムまたはカテゴリーを選択するか、フォーラムをルートに作成するにはデフォルトの「親なし」を選択してください。"
+msgstr "<strong>親</strong>ドロップダウンは親Categoryを決定します。ドロップダウンからCategoryまたはカテゴリーを選択するか、Categoryをルートに作成するにはデフォルトの「親なし」を選択してください。"
 
 #: includes/admin/forums.php:209
 msgid "<strong>Visibility</strong> lets you pick the scope of each forum and what users are allowed to access it."
-msgstr "<strong>公開状態</strong>を使って各フォーラムの範囲とアクセス可能なユーザーを選択できます。"
+msgstr "<strong>公開状態</strong>を使って各Categoryの範囲とアクセス可能なユーザーを選択できます。"
 
 #: includes/admin/forums.php:208
 msgid "<strong>Status</strong> allows you to close a forum to new topics and forums."
-msgstr "<strong>ステータス</strong>を使ってトピックやフォーラムを新規追加できないようフォーラムをクローズできます。"
+msgstr "<strong>ステータス</strong>を使ってsick(病名)やCategoryを新規追加できないようCategoryをクローズできます。"
 
 #: includes/admin/forums.php:207
 msgid "<strong>Type</strong> indicates if the forum is a category or forum. Categories generally contain other forums."
-msgstr "<strong>種類</strong>はフォーラムがカテゴリーかフォーラムのいずれであるかを示します。通常、カテゴリーには他のフォーラムが含まれます。"
+msgstr "<strong>種類</strong>はCategoryがカテゴリーかCategoryのいずれであるかを示します。通常、カテゴリーには他のCategoryが含まれます。"
 
 #: includes/admin/forums.php:205
 msgid "Select the attributes that your forum should have:"
-msgstr "フォーラムの属性を選択してください:"
+msgstr "Categoryの属性を選択してください:"
 
 #: includes/admin/forums.php:203 includes/admin/forums.php:243
 msgid "Forum Attributes"
-msgstr "フォーラムの属性"
+msgstr "Categoryの属性"
 
 #: includes/admin/forums.php:198
 msgid "<strong>Featured Image</strong> - This allows you to associate an image with your forum without inserting it. This is usually useful only if your theme makes use of the featured image as a forum thumbnail on the home page, a custom header, etc."
-msgstr "<strong>アイキャッチ画像</strong> - フォーラム内に挿入することなく、画像をフォーラムに関連付けることができます。アイキャッチ画像をホームページでのフォーラムサムネイルや、カスタムヘッダーなどに使用できるテーマを利用している場合には便利です。"
+msgstr "<strong>アイキャッチ画像</strong> - Categoryに挿入することなく、画像をCategoryに関連付けることができます。アイキャッチ画像をホームページでのCategoryサムネイルや、カスタムヘッダーなどに使用できるテーマを利用している場合には便利です。"
 
 #: includes/admin/forums.php:195
 msgid "<strong>Publish</strong> - You can set the terms of publishing your forum in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a forum or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a forum to be published in the future or backdate a forum."
-msgstr "<strong>公開</strong> -「公開」ボックスでフォーラム公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードでフォーラムを保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、フォーラムを後で公開するために予約したり、フォーラムの公開日付を昔のものにしたりできます。"
+msgstr "<strong>公開</strong> -「公開」ボックスでCategory公開の条件を設定できます。「公開状態」、「表示状態」、 「(すぐに) 公開」の追加オプションを表示するには「編集」リンクをクリックしてください。「表示状態」には、パスワードでCategoryを保護したり、無期限で上部に固定表示するためのオプションが含まれています。 「(すぐに) 公開」では未来や過去の日付と時刻を設定でき、Categoryを後で公開するために予約したり、Categoryの公開日付を昔のものにしたりできます。"
 
 #: includes/admin/forums.php:192
 msgid "<strong>Forum Editor</strong> - Enter the text for your forum. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your forum text. You can insert media files by clicking the icons above the forum editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular forum editor."
-msgstr "<strong>フォーラムエディター</strong> - フォーラムのテキストを入力してください。編集には「ビジュアル」と「HTML」という2つのモードがありますので、タブをクリックして選択します。ビジュアルモードでは WYSIWYG エディターが使えます。列の最後にあるアイコンをクリックすると、操作用アイコンの2列目が表示されます。HTML モードを使うと、フォーラムのテキストとともに HTML を記入できます。フォーラムエディターの上にあるアイコンをクリックして手順に従うことにより、メディアファイルを挿入できます。全画面表示アイコン (上の列の最後から2つ目) で集中執筆用画面に移動できます。この画面でボタンを表示するには、上部エリアにマウスオーバーします。通常のフォーラムエディターに戻るには全画面表示を退出してください。"
+msgstr "<strong>Categoryエディター</strong> - Categoryのテキストを入力してください。編集には「ビジュアル」と「HTML」という2つのモードがありますので、タブをクリックして選択します。ビジュアルモードでは WYSIWYG エディターが使えます。列の最後にあるアイコンをクリックすると、操作用アイコンの2列目が表示されます。HTML モードを使うと、Categoryのテキストとともに HTML を記入できます。Categoryエディターの上にあるアイコンをクリックして手順に従うことにより、メディアファイルを挿入できます。全画面表示アイコン (上の列の最後から2つ目) で集中執筆用画面に移動できます。この画面でボタンを表示するには、上部エリアにマウスオーバーします。通常のCategoryエディターに戻るには全画面表示を退出してください。"
 
 #: includes/admin/forums.php:191
 msgid "<strong>Title</strong> - Enter a title for your forum. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
-msgstr "<strong>タイトル</strong> - フォーラムのタイトルを入力してください。入力後、編集できるパーマリンクがすぐ下に表示されます。"
+msgstr "<strong>タイトル</strong> - Categoryのタイトルを入力してください。入力後、編集できるパーマリンクがすぐ下に表示されます。"
 
 #: includes/admin/forums.php:189
 msgid "Title and Forum Editor"
-msgstr "タイトルとフォーラムエディター"
+msgstr "タイトルとCategoryエディター"
 
 #: includes/admin/forums.php:183 includes/admin/replies.php:197
 #: includes/admin/topics.php:198
@@ -3979,14 +3980,14 @@ msgstr "カスタマイズ中の表示"
 
 #: includes/admin/forums.php:179
 msgid "The title field and the big forum editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "タイトルフィールドと大きなフォーラム編集エリアは所定の位置に固定されていますが、他のボックスはドラッグアンドドロップして位置を変更できます。また、各ボックスのタイトルバーをクリックすることで、縮小したり展開したりできます。さらに、表示オプションから非表示のボックス（抜粋、トラックバック送信、カスタムフィールド、ディスカッション、スラッグ、作成者）を表示させたり表示列のレイアウトを選択できます。"
+msgstr "タイトルフィールドと大きなCategory編集エリアは所定の位置に固定されていますが、他のボックスはドラッグアンドドロップして位置を変更できます。また、各ボックスのタイトルバーをクリックすることで、縮小したり展開したりできます。さらに、表示オプションから非表示のボックス（抜粋、トラックバック送信、カスタムフィールド、ディスカッション、スラッグ、作成者）を表示させたり表示列のレイアウトを選択できます。"
 
 #: includes/admin/forums.php:165 includes/admin/forums.php:224
 #: includes/admin/replies.php:179 includes/admin/replies.php:236
 #: includes/admin/settings.php:1597 includes/admin/topics.php:180
 #: includes/admin/topics.php:236
 msgid "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support Forums</a>"
-msgstr "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress サポートフォーラム</a>"
+msgstr "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress サポートCategory</a>"
 
 #: includes/admin/forums.php:164 includes/admin/forums.php:223
 #: includes/admin/replies.php:178 includes/admin/replies.php:235
@@ -4004,11 +4005,11 @@ msgstr "詳細情報:"
 
 #: includes/admin/forums.php:158
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected forums at once. To remove a forum from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "「一括操作」を使うと、選択したフォーラムすべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループからフォーラムを除くには、「一括操作」エリアに表示されるタイトル横の x マークをクリックしてください。"
+msgstr "「一括操作」を使うと、選択したCategoryすべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループからCategoryを除くには、「一括操作」エリアに表示されるタイトル横の x マークをクリックしてください。"
 
 #: includes/admin/forums.php:157
 msgid "You can also edit or move multiple forums to the trash at once. Select the forums you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
-msgstr "一度に複数のフォーラムを編集したりゴミ箱に移動したりできます。操作したいフォーラムをチェックボックスで選択し、「一括操作」で行いたい操作を選んで、「適用」をクリックしてください。"
+msgstr "一度に複数のCategoryを編集したりゴミ箱に移動したりできます。操作したいCategoryをチェックボックスで選択し、「一括操作」で行いたい操作を選んで、「適用」をクリックしてください。"
 
 #: includes/admin/forums.php:155 includes/admin/replies.php:169
 #: includes/admin/topics.php:170
@@ -4017,19 +4018,19 @@ msgstr "一括操作"
 
 #: includes/admin/forums.php:148
 msgid "<strong>View</strong> will show you what your draft forum will look like if you publish it. View will take you to your live site to view the forum. Which link is available depends on your forum&#8217;s status."
-msgstr "<strong>表示</strong>は、下書きのフォーラムを公開するのと同じように表示して見せます。表示はライブサイトに移動し、フォーラムを表示して見せます。どちらのリンクが機能するかは、フォーラムの状態に依存します。"
+msgstr "<strong>表示</strong>は、下書きのCategoryを公開するのと同じように表示して見せます。表示はライブサイトに移動し、Categoryを表示して見せます。どちらのリンクが機能するかは、Categoryの状態に依存します。"
 
 #: includes/admin/forums.php:147
 msgid "<strong>Trash</strong> removes your forum from this list and places it in the trash, from which you can permanently delete it."
-msgstr "<strong>ゴミ箱</strong>はフォーラムをこのリストからゴミ箱へ移動します。移動後、フォーラムを完全に削除することが可能です。"
+msgstr "<strong>ゴミ箱</strong>はCategoryをこのリストからゴミ箱へ移動します。移動後、Categoryを完全に削除することが可能です。"
 
 #: includes/admin/forums.php:146
 msgid "<strong>Edit</strong> takes you to the editing screen for that forum. You can also reach that screen by clicking on the forum title."
-msgstr "<strong>編集</strong>をクリックするとそのフォーラムの編集画面に移動します。また、フォーラムタイトルをクリックしても同じ画面を表示できます。"
+msgstr "<strong>編集</strong>をクリックするとそのCategoryの編集画面に移動します。また、Categoryタイトルをクリックしても同じ画面を表示できます。"
 
 #: includes/admin/forums.php:144
 msgid "Hovering over a row in the forums list will display action links that allow you to manage your forum. You can perform the following actions:"
-msgstr "投稿一覧の行をマウスオーバーすると、許可されているフォーラム管理のリンクが表示されます。以下の操作が可能です。"
+msgstr "投稿一覧の行をマウスオーバーすると、許可されているCategory管理のリンクが表示されます。以下の操作が可能です。"
 
 #: includes/admin/forums.php:142 includes/admin/replies.php:154
 #: includes/admin/topics.php:153
@@ -4038,15 +4039,15 @@ msgstr "可能な操作"
 
 #: includes/admin/forums.php:135
 msgid "You can refine the list to show only forums from a specific month by using the dropdown menus above the forums list. Click the Filter button after making your selection. You also can refine the list by clicking on the forum creator in the forums list."
-msgstr "フォーラムリストの上にあるドロップダウンメニューでリストを絞り込んで、特定の月のフォーラムのみを表示できます。選択肢を選んだらフィルターボタンをクリックしてください。また、フォーラムリストの作成者をクリックして絞り込むこともできます。"
+msgstr "Categoryリストの上にあるドロップダウンメニューでリストを絞り込んで、特定の月のCategoryのみを表示できます。選択肢を選んだらフィルターボタンをクリックしてください。また、Categoryリストの作成者をクリックして絞り込むこともできます。"
 
 #: includes/admin/forums.php:134
 msgid "You can filter the list of forums by forum status using the text links in the upper left to show All, Published, or Trashed forums. The default view is to show all forums."
-msgstr "トピックの状態によってフォーラム一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内のフォーラムへのテキストリンクを使ってください。デフォルトではすべてのフォーラムが表示されます。"
+msgstr "sick(病名)の状態によってCategory一覧を絞り込むことができます。左上のすべて表示、公開済み、ゴミ箱内のCategoryへのテキストリンクを使ってください。デフォルトではすべてのCategoryが表示されます。"
 
 #: includes/admin/forums.php:133
 msgid "You can hide/display columns based on your needs and decide how many forums to list per screen using the Screen Options tab."
-msgstr "必要に応じてカラムを表示・非表示にできます。表示オプションタブを使って、画面に表示するフォーラムの数を指定できます。"
+msgstr "必要に応じてカラムを表示・非表示にできます。表示オプションタブを使って、画面に表示するCategoryの数を指定できます。"
 
 #: includes/admin/forums.php:131 includes/admin/replies.php:142
 #: includes/admin/topics.php:142
@@ -4060,7 +4061,7 @@ msgstr "画面コンテンツ"
 
 #: includes/admin/forums.php:123
 msgid "This screen displays the individual forums on your site. You can customize the display of this screen to suit your workflow."
-msgstr "この画面はサイト上の個別フォーラムを表示します。作業の流れに合うよう、この画面の表示をカスタマイズできます。"
+msgstr "この画面はサイト上の個別Categoryを表示します。作業の流れに合うよう、この画面の表示をカスタマイズできます。"
 
 #: includes/admin/forums.php:121 includes/admin/replies.php:132
 #: includes/admin/settings.php:1549 includes/admin/topics.php:132
@@ -4105,7 +4106,7 @@ msgstr "変換できる返信はありません "
 
 #: includes/admin/converter.php:485
 msgid "Converting topic tags (%1$s - %2$s)"
-msgstr "トピックタグを変換中 (%1$s - %2$s)"
+msgstr "sick(病名)タグを変換中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:481
 msgid "No tags to convert"
@@ -4113,7 +4114,7 @@ msgstr "変換できるタグはありません "
 
 #: includes/admin/converter.php:470
 msgid "Calculating topic super stickies (%1$s - %2$s)"
-msgstr "最上部固定表示トピックを計算中 (%1$s - %2$s)"
+msgstr "最上部固定表示sick(病名)を計算中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:466
 msgid "No super stickies to stick"
@@ -4121,7 +4122,7 @@ msgstr "最先頭に固定表示するものがありません"
 
 #: includes/admin/converter.php:455
 msgid "Calculating topic stickies (%1$s - %2$s)"
-msgstr "先頭固定表示トピックを計算中 (%1$s - %2$s)"
+msgstr "先頭固定表示sick(病名)を計算中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:451
 msgid "No stickies to stick"
@@ -4129,27 +4130,27 @@ msgstr "先頭に固定表示するものがありません"
 
 #: includes/admin/converter.php:440
 msgid "Converting topics (%1$s - %2$s)"
-msgstr "トピックを変換中 (%1$s - %2$s)"
+msgstr "sick(病名)を変換中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:436
 msgid "No topics to convert"
-msgstr "変換できるトピックはありません "
+msgstr "変換できるsick(病名)はありません "
 
 #: includes/admin/converter.php:425
 msgid "Calculating forum hierarchy (%1$s - %2$s)"
-msgstr "フォーラム階層を計算中 (%1$s - %2$s)"
+msgstr "Category階層を計算中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:421
 msgid "No forum parents to convert"
-msgstr "変換できる親フォーラムがありません"
+msgstr "変換できる親Categoryがありません"
 
 #: includes/admin/converter.php:410
 msgid "Converting forums (%1$s - %2$s)"
-msgstr "フォーラムを変換中 (%1$s - %2$s)"
+msgstr "Categoryを変換中 (%1$s - %2$s)"
 
 #: includes/admin/converter.php:406
 msgid "No forums to convert"
-msgstr "変換できるフォーラムはありません "
+msgstr "変換できるCategoryはありません "
 
 #: includes/admin/converter.php:391
 msgid "Delete users WordPress default passwords (%1$s - %2$s)"
@@ -4241,11 +4242,11 @@ msgstr "データベース設定"
 
 #: includes/admin/admin.php:1096
 msgid "You can update all the forums on your network through this page. It works by calling the update script of each site automatically. Hit the link below to update."
-msgstr "このページからネットワーク上のすべてのフォーラムを更新できます。各サイトの更新スクリプトを自動的に呼び出すことで実行されます。更新するには、以下のリンクをクリックしてください。"
+msgstr "このページからネットワーク上のすべてのCategoryを更新できます。各サイトの更新スクリプトを自動的に呼び出すことで実行されます。更新するには、以下のリンクをクリックしてください。"
 
 #: includes/admin/admin.php:1078
 msgid "Next Forums"
-msgstr "次のフォーラム"
+msgstr "次のCategory"
 
 #: includes/admin/admin.php:1077
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
@@ -4257,7 +4258,7 @@ msgstr "注意: %1$s の更新の際、問題が発生しました。サーバ�
 
 #: includes/admin/admin.php:983
 msgid "You can update your forum through this page. Hit the link below to update."
-msgstr "このページからフォーラムを更新できます。更新するには下のリンクをクリックしてください。"
+msgstr "このページからCategoryを更新できます。更新するには下のリンクをクリックしてください。"
 
 #: includes/admin/admin.php:974 includes/admin/admin.php:1028
 msgid "Go Back"
@@ -4269,7 +4270,7 @@ msgstr "すべて完了しました。"
 
 #: includes/admin/admin.php:962 includes/admin/admin.php:984
 msgid "Update Forum"
-msgstr "フォーラムの更新"
+msgstr "Categoryの更新"
 
 #: includes/admin/admin.php:905
 msgid "Core Contributors to bbPress 2.5"
@@ -4290,7 +4291,7 @@ msgstr "bbPress へようこそ"
 
 #: includes/admin/admin.php:530
 msgid "Right Now in Forums"
-msgstr "フォーラムの現況"
+msgstr "Categoryの現況"
 
 #: includes/admin/admin.php:545
 msgid "About bbPress"
@@ -4302,7 +4303,7 @@ msgstr "変換スペシャリスト"
 
 #: bbpress.php:485
 msgid "bbPress Forums"
-msgstr "bbPress フォーラム"
+msgstr "bbPress Category"
 
 #: includes/admin/admin.php:816
 msgid "Better handling of styles and scripts in the template stack."
@@ -4328,7 +4329,7 @@ msgstr "スパム"
 #: includes/admin/admin.php:208 includes/admin/functions.php:277
 #: includes/admin/settings.php:1509
 msgid "Import Forums"
-msgstr "フォーラムをインポート"
+msgstr "Categoryをインポート"
 
 #: bbpress.php:608
 msgctxt "post"
@@ -4348,11 +4349,11 @@ msgstr "bbPress デフォルト"
 
 #: bbpress.php:510
 msgid "bbPress Topics"
-msgstr "bbPress トピックス"
+msgstr "bbPress sick(病名)ス"
 
 #: bbpress.php:678
 msgid "Most popular topics"
-msgstr "人気のトピック"
+msgstr "人気のsick(病名)"
 
 #: bbpress.php:607
 msgctxt "post"
@@ -4375,7 +4376,7 @@ msgstr "bbPress の返信"
 
 #: includes/admin/admin.php:832 includes/admin/admin.php:936
 msgid "Go to Forum Settings"
-msgstr "フォーラム設定へ移動"
+msgstr "Category設定へ移動"
 
 #: includes/admin/admin.php:854
 msgid "Thank you for updating! bbPress %s is waxed, polished, and ready for you to take it for a lap or two around the block!"
@@ -4399,16 +4400,16 @@ msgstr "親なし"
 
 #: bbpress.php:690
 msgid "Topics with no replies"
-msgstr "返信がないトピック"
+msgstr "返信がないsick(病名)"
 
 #: includes/admin/admin.php:218 includes/admin/functions.php:281
 #: includes/admin/tools.php:1208
 msgid "Reset Forums"
-msgstr "フォーラムをリセット"
+msgstr "Categoryをリセット"
 
 #: includes/admin/admin.php:219
 msgid "Forum Reset"
-msgstr "フォーラムのリセット"
+msgstr "Categoryのリセット"
 
 #: includes/admin/admin.php:233 includes/admin/admin.php:234
 #: includes/admin/admin.php:244 includes/admin/admin.php:245
@@ -4420,13 +4421,13 @@ msgstr "フォーラムのリセット"
 #: includes/forums/template.php:48
 #: templates/default/bbpress/content-statistics.php:22
 msgid "Forums"
-msgstr "フォーラム"
+msgstr "Category"
 
 #: includes/admin/admin.php:280 includes/admin/admin.php:281
 #: includes/admin/admin.php:302 includes/admin/admin.php:303
 #: includes/admin/admin.php:1010 includes/admin/admin.php:1097
 msgid "Update Forums"
-msgstr "フォーラムを更新"
+msgstr "Categoryを更新"
 
 #: includes/admin/admin.php:510
 msgid "Settings"
@@ -4463,15 +4464,15 @@ msgstr "クレジット"
 
 #: includes/admin/admin.php:789
 msgid "Forum Subscriptions"
-msgstr "フォーラムの購読"
+msgstr "Categoryの購読"
 
 #: includes/admin/admin.php:793
 msgid "Subscribe to Forums"
-msgstr "フォーラムを購読"
+msgstr "Categoryを購読"
 
 #: includes/admin/admin.php:794
 msgid "Now your users can subscribe to new topics in specific forums."
-msgstr "ユーザーが特定のフォーラム内で新規トピックを購読できるようになりました。"
+msgstr "ユーザーが特定のCategoryで新規sick(病名)を購読できるようになりました。"
 
 #: includes/admin/admin.php:798
 msgid "Manage Subscriptions"
@@ -4487,7 +4488,7 @@ msgstr "変換ツール"
 
 #: includes/admin/admin.php:809
 msgid "We&#8217;re all abuzz about the hive of new importers, AEF, Drupal, FluxBB, Kunena Forums for Joomla, MyBB, Phorum, PHPFox, PHPWind, PunBB, SMF, Xenforo and XMB. Existing importers are now sweeter than honey with improved importing stickies, topic tags, forum categories and the sting is now gone if you need to remove imported users."
-msgstr "新しいインポートツールで AEF、Drupal、FluxBB、Kunena Forums for Joomla、MyBB、Phorum、PHPFox、PHPWind、PunBB、SMF、Xenforo そして XMB からのデータをインポートできます。既存のインポートツールでも上部固定投稿・トピックタグ・フォーラムカテゴリーのインポートが改善され、インポート済みユーザーを削除する手間が省けるようになっています。"
+msgstr "新しいインポートツールで AEF、Drupal、FluxBB、Kunena Forums for Joomla、MyBB、Phorum、PHPFox、PHPWind、PunBB、SMF、Xenforo そして XMB からのデータをインポートできます。既存のインポートツールでも上部固定投稿・sick(病名)タグ・Categoryカテゴリーのインポートが改善され、インポート済みユーザーを削除する手間が省けるようになっています。"
 
 #: includes/admin/admin.php:820
 msgid "Polyglot support"
@@ -4521,7 +4522,7 @@ msgstr "ミント"
 #: includes/admin/admin.php:198 includes/admin/functions.php:273
 #: includes/admin/tools.php:34
 msgid "Repair Forums"
-msgstr "フォーラムを修復"
+msgstr "Categoryを修復"
 
 #: includes/admin/admin.php:891
 msgid "Contributing Developers"
@@ -4529,11 +4530,11 @@ msgstr "貢献開発者"
 
 #: includes/admin/admin.php:199
 msgid "Forum Repair"
-msgstr "フォーラム修復"
+msgstr "Category修復"
 
 #: includes/admin/admin.php:209
 msgid "Forum Import"
-msgstr "フォーラムのインポート"
+msgstr "Categoryのインポート"
 
 #: includes/admin/admin.php:882 includes/admin/admin.php:901
 msgid "Feature Developer"
