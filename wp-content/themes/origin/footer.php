@@ -1,4 +1,5 @@
 		<footer class="footer">
+			<p class="copyright">Copyright &copy; sickhat.info All Rights Reserved.</p>
 			<!-- <a href="javascript:void(0)" class="menu-trigger">
 				<span></span>
 				<span></span>

@@ -1,6 +1,7 @@
 ;(function(){
   $(function(){
     var url = location.href;
+    var winH = $(window).height();
 
     //カテゴリー内のトピックを出す
     $('.forum-list-ttl').on('click',function(){
@@ -16,7 +17,7 @@
       }
     });
 
-    //モーダル検索
+    //モーダル
     $('.head-action-search').on('click',function(){
       $('.modal-wrapper--search').stop().fadeIn(200);
     });
@@ -26,6 +27,8 @@
     $('.modal-back,.modal-close').on('click',function(){
       $('.modal-wrapper').stop().fadeOut(200);
     });
+    $('.modal-wrapper--forum').css('height',winH);
+
       
 
     
@@ -57,8 +60,10 @@
       $('.forum-page #bbp_topic_submit').text('作成する');
       $('.bbp-forum-description').text('現在sick(病名)はありません。');
       $('.forum-page #bbp_topic_content').attr('rows','6');
-
-
+    }
+    if(url.match(/search/)){
+      $('body').addClass('fsearch-page');
+      $('.bbp-template-notice p').text('該当の病気は見つかりませんでした。');
     }
 
     

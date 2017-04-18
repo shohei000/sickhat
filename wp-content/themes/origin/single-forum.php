@@ -32,9 +32,24 @@ get_header(); ?>
 				</ul>
 			</div>
 			
-			<?php if ( !bbp_is_forum_category() && bbp_has_topics() ) : ?>		
+			<?php if ( !bbp_is_forum_category() && bbp_has_topics() ) : ?>
 				<div class="forum-list-ttl"><?php bbp_forum_title(); ?>の病気一覧を見る</div>
 			<?php endif; ?>
+
+			<div class="side-area">
+				<div class="side-action">
+					<a href="<?php echo home_url() ?>">TOPへ</a>
+					<a href="javascript:void(0)" class="head-action-create">病気を作成する</a>
+					<a href="javascript:void(0)" class="head-action-search">検索する</a>
+				</div>
+				<div class="sns-btn">
+					<a href="https://twitter.com/share" target="_blank" class="btn-tw">Twitter</a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=http://sickhat.info/"  target="_blank" class="btn-fb">Facebook</a>
+				</div>
+				<div class="side-banner">
+					<a href="javascript:void(0)" class="head-action-create"><img src="<?php bloginfo('template_directory'); ?>/img/common/side_banner.png" alt=""></a>
+				</div>
+			</div>
 
 
 			<div class="modal-wrapper modal-wrapper--search">

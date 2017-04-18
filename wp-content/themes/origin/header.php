@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>sickhat(しっくはっと)</title>
+  <title>同じ病気の人と出会えるサイト | sickhat(しっくはっと)</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
 	<meta name="description" content="">

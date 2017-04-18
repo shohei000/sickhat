@@ -197,13 +197,13 @@ input, button, textarea, select {
   text-align: center;
 }
 
-.main-ttl {
-  width: 310px;
+.site-ttl {
+  width: 240px;
   margin: 0 auto 30px auto;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 1px;
 }
-.main-ttl img{
+.site-ttl img{
   width: 100%;
 }
 
@@ -260,6 +260,27 @@ input, button, textarea, select {
 }
 
 
+.main-ttl{
+	font-size: 38px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+}
+
+/*-----------------------------------------------TOPナビ-----------------------------------------------*/
+.top-nav a{
+	display: inline-block;
+	margin-right: 10px;
+}
+.top-nav a.close{
+	color: #ccc;
+}
+.top-nav a.close:hover{
+	cursor: default;
+	text-decoration: none;
+}
+
+
 /*-----------------------------------------hidden-----------------------------------------*/
 .bbp-breadcrumb{display: none;}
 .bbp-pagination{display: none;}
@@ -296,7 +317,7 @@ p.form-allowed-tags{display: none !important;}/* タグと属性が使えます 
   top: 0;
   font-size: 20px;
   color: #fff;
-  background: #19389b;
+  background: #167ac6;
   border-radius: 5px;
   border-top-left-radius: 0; 
   -webkit-border-top-left-radius: 0;
@@ -322,7 +343,7 @@ p.form-allowed-tags{display: none !important;}/* タグと属性が使えます 
   padding-right: 10px;
   color: #222;
 }
-.main-ttl + #bbpress-forums .bbp-template-notice{display: block;}
+.site-ttl + #bbpress-forums .bbp-template-notice{display: block;}
 
 
 /*-----------------------------------------大枠bg-----------------------------------------*/
@@ -403,7 +424,7 @@ li.bbp-body div.hentry:after{
 }
 /*--トーク部分--*/
 .bbp-topic-wrapper #bbpress-forums li.bbp-body{
-  width: 70%;
+  width: 75%;
   margin: 0 0 0 25px;
   height: 500px;
   overflow-y: scroll;
@@ -437,7 +458,7 @@ a.bbp-author-name{
 .reply-box-topic{
   position: fixed;
   bottom: -5px;
-  width: 70%;
+  width: 75%;
   left: 25px;
   background-color: #f1f1f1;
   padding-bottom: 30px;
@@ -709,14 +730,14 @@ a.bbp-author-name{
 /*-----------------------------------------------サイドバー-----------------------------------------------*/
 .side-area{
   position: fixed;
-  width: 100%;
-  top: 50px;
-  left: 75%;
+	top: 50px;
+	right: 2.5%;
+	height: 90vh;
 }
 .side-area a{
-  width: 20%;
-  text-align: center;
+  text-align: left;
   display: block;
+  font-size: 20px;
 }
 .side-area a span{
   display: block;
@@ -726,6 +747,29 @@ a.bbp-author-name{
   background-color:#E6770A;
   border-radius: 5px;
   -webkit-border-radius: 5px;
+}
+.side-action{
+	margin-bottom: 30px;
+}
+.sns-btn{
+	margin-bottom: 30px;
+}
+.sns-btn a{
+	margin-bottom: 10px;
+	color: #fff;
+	border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.sns-btn a:hover{
+	opacity: 0.7;
+}
+.btn-tw{
+	background-color: #1B95E0;
+}
+.btn-fb{
+	background-color: #3B5999;
 }
 
 
@@ -759,6 +803,7 @@ a.bbp-author-name{
   font-weight: normal;
   border-bottom: 1px solid #ccc;
   box-shadow: 1px 1px 2px #ccc;
+  z-index: 70;
 }
 .head-logo{
   width: 110px;
@@ -822,7 +867,7 @@ a.bbp-author-name{
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 50;
 }
 .modal-bar{
@@ -851,9 +896,18 @@ a.bbp-author-name{
 
 
 /*-----------------------------------------------モーダルフォーラム一覧-----------------------------------------------*/
-.modal-forum{
-  position: absolute;
-  top: 30%;
+.modal-ttl{
+	position: fixed;
+	top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  z-index: 80;
+}
+.modal-wrapper--forum{
+	position: absolute;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -861,29 +915,28 @@ a.bbp-author-name{
   width: 100%;
   z-index: 80;
 }
-.modal-ttl{
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  font-size: 26px;
-  z-index: 80;
-}
+
 .modal-wrapper--forum .bbp-forum-topic-count{display: none;}/*topicの数*/
 .modal-wrapper--forum .bbp-forum-reply-count{display: none;}/*返信の数*/
 .modal-wrapper--forum .bbp-forum-freshness .avatar{display: none;}/*サムネイル*/
 .modal-wrapper--forum .bbp-forum-freshness{display: none;}/*topicがあるかどうか*/
 .modal-wrapper--forum .bbp-search-form{display: none;}
+.modal-wrapper--forum .bbp-forum-content{display: none;}
 .modal-wrapper--forum #bbpress-forums .bbp-body ul{background: none;}
 .modal-wrapper--forum .bbp-forum-info a{
-  padding: 0px 20px;
+  padding: 3px 20px 0 20px;
   background: #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   font-size: 24px;
   margin-right: 10px;
+  margin-bottom: 15px;
   display: block;
+}
+.modal-wrapper--forum .bbp-forum-info a:hover{
+  background-color: #167ac6;
+  color: #fff;
+  text-decoration: none;
 }
 .modal-wrapper--forum #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic{
   padding: 0;
@@ -926,7 +979,42 @@ a.bbp-author-name{
 
 
 
+/*-----------------------------------------------notice系-----------------------------------------------*/
+.fsearch-page .bbp-template-notice{
+	padding: 15px 0 !important;
+	display: block !important;
+}
+.bbp-template-notice p{
+	font-size: 14px !important;
+}
+.notice-btn{
+	color: #fff !important;
+	font-size: 18px;
+	background-color: #167ac6;
+	font-weight: bold;
+	display: inline-block;
+	padding: 3px 15px;
+	border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.notice-btn:hover{
+	background-color: #126db3;
+}
 
+
+
+/*-----------------------------------------------footer-----------------------------------------------*/
+.footer{
+	position: fixed;
+	padding: 2px 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+.footer .copyright{
+	font-size: 12px;
+}
 
 
 
